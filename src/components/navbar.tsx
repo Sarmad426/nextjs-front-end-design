@@ -2,7 +2,6 @@ import Link from "next/link";
 import React from "react";
 import Separator from "./custom/separator";
 import { routes } from "@/data/routes";
-import { Button } from "./custom/button";
 
 const Navbar = () => {
   return (
@@ -25,13 +24,16 @@ const Navbar = () => {
               <Link
                 href={`/${route.toLowerCase().replace(" ", "-")}`}
                 key={route}
-                className="text-secondaryTextColor text-sm p-2"
+                className="text-white text-sm p-2"
               >
                 {route}
               </Link>
             ))}
           </div>
-          <Button label="Apply" />
+          {/* <Button label="Apply" /> */}
+          <button className="bg-primaryColor w-[90px] h-[41px] text-white">
+            Apply
+          </button>
         </div>
       </div>
       <Separator />
