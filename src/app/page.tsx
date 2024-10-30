@@ -1,13 +1,16 @@
 import Hero from "@/components/hero";
-import MeetProfessor from "@/components/meet-professor";
-import { Sponsors } from "@/components/sponsors";
+// import MeetProfessor from "@/components/meet-professor";
+// import OfferedPrograms from "@/components/offered-programs";
+// import { Sponsors } from "@/components/sponsors";
 
 export default function Home() {
   return (
-    <main>
+    <main className="flex flex-col gap-y-6 w-screen">
       <Hero />
+      {/* 
       <Sponsors />
       <MeetProfessor />
+      <OfferedPrograms /> */}
     </main>
   );
 }

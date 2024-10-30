@@ -7,7 +7,7 @@ export const Sponsors = () => {
   return (
     <div>
       <div className="w-screen flex flex-col items-center justify-center">
-        <div className="-mt-9 flex flex-col bg-black w-[95%] p-8">
+        <div className="-mt-12 flex flex-col bg-black w-[95%] p-8">
           <div className="flex flex-wrap items-center justify-between text-center w-full">
             <div>
               <h3 className="text-6xl">$320K</h3>
