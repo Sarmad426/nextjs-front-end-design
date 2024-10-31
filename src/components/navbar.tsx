@@ -12,7 +12,7 @@ const Navbar = () => {
           <div>
             <Link
               href="/"
-              className="uppercase lg:text-2xl md:text-xl text-lg font-extrabold leading-none"
+              className="font-onest uppercase lg:text-2xl md:text-xl text-lg font-extrabold leading-none"
             >
               genoaes
             </Link>
