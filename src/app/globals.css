@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "onest";
+  src: url("/fonts/onest.ttf") format("truetype");
+}
+
+.font-onest {
+  font-family: "onest";
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
