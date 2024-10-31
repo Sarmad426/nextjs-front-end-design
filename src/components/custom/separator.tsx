@@ -7,7 +7,7 @@ interface Props {
 const Separator: React.FC<Props> = ({ color }) => {
   return (
     <div>
-      <hr style={{ borderColor: color }} />
+      <hr style={{ borderColor: color, borderWidth: 1.1 }} />
     </div>
   );
 };

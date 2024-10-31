@@ -7,7 +7,7 @@ import { Menu } from "lucide-react";
 const Navbar = () => {
   return (
     <header className="absolute top-0 left-0 w-full z-[9999] p-5">
-      <nav className="flex flex-col gap-[24px] max-w-[1400px]">
+      <nav className="flex flex-col gap-[24px]">
         <div className="flex items-center justify-between leading-none text-white">
           <div>
             <Link
@@ -36,7 +36,7 @@ const Navbar = () => {
               Apply
             </button>
           </div>
-          <Menu className="lg:hidden flex" />
+          <Menu className="lg:hidden flex cursor-pointer" />
         </div>
         <Separator />
       </nav>

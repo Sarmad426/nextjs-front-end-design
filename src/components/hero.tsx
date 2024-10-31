@@ -4,11 +4,11 @@ import { ArrowRight } from "lucide-react";
 const Hero = () => {
   return (
     <div className="bg-[url(../../public/bg-img.svg)] bg-no-repeat bg-center bg-cover h-[1024px] w-full flex justify-center items-end pb-[180px]">
-      <div className="text-center">
-        <h2 className="lg:text-7xl md:text-5xl text-4xl text-center text-white uppercase">
+      <div className="text-center max-w-[90%]">
+        <h2 className="lg:text-7xl md:text-5xl text-4xl text-white uppercase">
           Launch your startup while learning masters degree
         </h2>
-        <h4 className="text-2xl text-secondaryTextColor">
+        <h4 className="text-2xl text-gray-200">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
           quasi!
         </h4>
