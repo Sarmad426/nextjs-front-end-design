@@ -5,7 +5,7 @@ import Hero from "@/components/hero";
 
 export default function Home() {
   return (
-    <main className="flex flex-col gap-y-6 w-screen">
+    <main className="flex flex-col gap-y-6 w-full h-full">
       <Hero />
       {/* 
       <Sponsors />
