@@ -4,5 +4,4 @@ export const routes = [
     "Our Network",
     "Why Choose Us?",
     "Career",
-    "EN"
 ]
