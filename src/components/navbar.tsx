@@ -2,23 +2,24 @@ import Link from "next/link";
 import React from "react";
 import Separator from "./custom/separator";
 import { routes } from "@/data/routes";
+import { Menu } from "lucide-react";
 
 const Navbar = () => {
   return (
     <nav className="max-w-[1400px]">
-      <div className="pb-[24px] flex items-center gap-[439px]">
+      <div className="flex items-center justify-between leading-none">
         <div>
           <Link
             href="/"
-            className="uppercase text-2xl font-extrabold leading-none text-white"
+            className="uppercase lg:text-2xl md:text-xl text-lg font-extrabold leading-none text-white"
           >
             genoaes
-            <span className="text-[8px] font-light block text-secondaryTextColor">
-              genoa entrepreneurship school
-            </span>
           </Link>
+          <span className="uppercase text-[8px] font-light block">
+            genoa entrepreneurship school
+          </span>
         </div>
-        <div className="items-center gap-[40px] hidden lg:flex">
+        <div className="hidden lg:flex items-center gap-[40px]">
           <div className="flex gap-[30px]">
             {routes.map((route) => (
               <Link
@@ -30,11 +31,11 @@ const Navbar = () => {
               </Link>
             ))}
           </div>
-          {/* <Button label="Apply" /> */}
-          <button className="bg-primaryColor w-[90px] h-[41px] text-white">
+          <button className="bg-primaryColor w-[90px] h-[41px] text-white hover:bg-[#43cb13] transition-colors duration-200">
             Apply
           </button>
         </div>
+        <Menu className="lg:hidden flex text-white" />
       </div>
       <Separator />
     </nav>
