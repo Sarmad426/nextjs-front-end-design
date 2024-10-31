@@ -2,8 +2,8 @@ import React from "react";
 
 const MeetProfessor = () => {
   return (
-    <div className="w-screen mx-7 my-8 bg-[#FAF5E2] text-black">
-      <div className="grid grid-cols-3">
+    <div className="w-[95%] mx-7 my-8 bg-[#FAF5E2] text-black">
+      <div className="lg:grid lg:grid-cols-3 flex flex-col-reverse">
         <div className="flex flex-col justify-between gap-y-12 col-span-1 p-3">
           <h3 className="text-4xl">Meet your professor</h3>
           <p>
@@ -14,7 +14,7 @@ const MeetProfessor = () => {
             error?
           </p>
         </div>
-        <div className="col-span-2">
+        <div className="lg:col-span-2">
           <iframe
             width="100%"
             height="400"
