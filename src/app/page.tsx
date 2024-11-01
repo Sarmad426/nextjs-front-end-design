@@ -1,3 +1,5 @@
+"use client";
+
 import Hero from "@/components/hero";
 import MeetProfessor from "@/components/meet-professor";
 import OfferedPrograms from "@/components/offered-programs";

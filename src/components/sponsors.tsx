@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import React from "react";
 import Separator from "./custom/separator";
@@ -23,8 +25,11 @@ const sponsors = [
 
 export const Sponsors = () => {
   return (
-    <div className="-mt-24 mx-auto md:w-[95%] w-full bg-[#FCFAF2] -rotate-[.5deg]">
-      <div className="w-full flex flex-col items-center justify-center">
+    <div
+      data-aos="fade-right"
+      className="-mt-24 mx-auto md:w-[95%] w-full bg-[#FCFAF2] -rotate-[.5deg]"
+    >
+      <div className="w-full flex flex-col items-center ">
         <div className="flex flex-col w-[95%] p-8 bg-[#FCFAF2]">
           <div className="flex lg:flex-row md:flex-wrap flex-col gap-6 items-center justify-between text-center w-full">
             <div className="text-primaryTextColor">
@@ -52,14 +57,16 @@ export const Sponsors = () => {
               </p>
             </div>
           </div>
-          <div>
-            <h4>Joined by experts with experience in:</h4>
-            <div className="flex justify-start lg:justify-end gap-x-10 flex-wrap gap-y-5">
+          <div className="w-full">
+            <h4 className="font-[400] text-2xl leading-8 text-primaryColor md:text-lg md:leading-6 lg:text-2xl mt-6 mb-2.5">
+              Joined by experts with experience in:
+            </h4>
+            <div className="flex justify-start lg:justify-end lg:gap-x-10 gap-x-[26px] flex-wrap gap-y-5">
               {sponsors.map((sponsor, index) => (
                 <Image
                   src={sponsor}
                   alt={`Sponsor ${index}`}
-                  className="lg:h-10 md:h-7 h-3"
+                  // className="lg:h-10 md:h-7 h-3"
                   key={index}
                 />
               ))}
