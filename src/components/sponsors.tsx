@@ -77,9 +77,8 @@ export const Sponsors = () => {
         <h4 className="text-start font-[400] text-xl leading-6 md:text-2xl md:leading-8 text-primaryColor my-2">
           What is Genoa Entrepreneurship school?
         </h4>
-        {/* <Separator /> */}
-        <hr />
-        <hr className="border border-[#193E2C] lg:w-[250px] w-[220px]" />
+        <hr className="border-[#BCD4C7]" />
+        <hr className="border border-[#193E2C] lg:w-[250px] w-[220px] -mt-[.5px]" />
         <div>
           <div className="grid lg:grid-cols-5 grid-cols-1 gap-12 my-6">
             <h3 className="font-onest uppercase font-light text-[28px] leading-7 md:text-[40px] md:leading-[48px] lg:text-[48px] lg:leading-[56px] col-span-2">
