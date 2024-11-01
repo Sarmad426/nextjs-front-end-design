@@ -2,10 +2,10 @@ import React from "react";
 
 const MeetProfessor = () => {
   return (
-    <div className="mx-8">
-      <div className="max-w-[1600px] mx-auto my-8 bg-[#FAF5E2] text-black">
-        <div className="lg:grid lg:grid-cols-3 flex flex-col-reverse">
-          <div className="flex flex-col justify-between gap-y-12 col-span-1 p-3">
+    <div className="mx-auto md:w-[95%]">
+      <div className="mx-auto my-8 bg-[#FAF5E2] text-black">
+        <div className="flex lg:flex-row flex-col-reverse">
+          <div className="flex-1 flex flex-col justify-between gap-y-12 p-3">
             <h3 className="text-4xl">Meet your professor</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -15,7 +15,7 @@ const MeetProfessor = () => {
               similique magni veritatis error?
             </p>
           </div>
-          <div className="lg:col-span-2">
+          <div>
             <iframe
               width="100%"
               height="400"
