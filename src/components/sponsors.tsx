@@ -97,20 +97,20 @@ export const Sponsors = () => {
             <h4 className="text-primaryTextColor text-base ">
               Academia Partners
             </h4>
-            <div className="flex items-center md:justify-start justify-between gap-4 flex-wrap mt-3 w-full">
+            <div className="flex items-center justify-start  flex-wrap mt-3 w-full">
               <div>
                 <Image
                   src={GeorgeTownUniIcon}
                   alt="Georgetown"
-                  className="h-7"
+                  className="h-7 w-[112px]"
                 />
               </div>
               <div>
-                <span className="text-[#E4602F] block text-xs">
+                <span className="text-[#E4602F] text-xs leading-[14px] w-[194px]">
                   Bloomberg MBA Ranking
                 </span>
-                <span className="text-sm">
-                  <span className="font-bold">#1</span> World&apos;s most
+                <span className="leading-[24px] block">
+                  <span className="font-semibold">#1</span> World&apos;s most
                   creative & <br className="md:hidden visible" /> innovative
                   graduates
                 </span>
