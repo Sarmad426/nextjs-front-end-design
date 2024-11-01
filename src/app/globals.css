@@ -17,6 +17,7 @@
   --primary-color: #43aa13;
   --secondary-text-color: #777;
   --hover-color: #43cb13;
+  --primary-text-color: #202020;
 }
 
 @media (prefers-color-scheme: dark) {

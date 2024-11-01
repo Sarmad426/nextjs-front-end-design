@@ -14,6 +14,7 @@ const config: Config = {
         primaryColor: "var(--primary-color)",
         secondaryTextColor: "var(--secondary-text-color)",
         hoverColor: "var(--hover-color)",
+        primaryTextColor: 'var(--primary-text-color)',
       },
     },
   },
