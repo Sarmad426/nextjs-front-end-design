@@ -4,21 +4,22 @@ import Separator from "./custom/separator";
 import { routes } from "@/data/routes";
 import { Menu } from "lucide-react";
 
+import Genoaes from "@/assets/logo.svg";
+import Image from "next/image";
+
 const Navbar = () => {
   return (
     <header className="absolute top-0 left-0 w-full z-[9999] p-6">
       <nav className="flex flex-col gap-[24px]">
         <div className="flex items-center justify-between leading-none text-white">
           <div>
-            <Link
-              href="/"
-              className="font-onest uppercase lg:text-2xl md:text-xl text-lg font-extrabold leading-none"
-            >
-              genoaes
+            <Link href="/">
+              <Image
+                src={Genoaes}
+                alt="GenoaES"
+                className="w-[112px] h-[24px] md:w-[150px] md:h-[32px]"
+              />
             </Link>
-            <span className="uppercase text-[8px] font-light block">
-              genoa entrepreneurship school
-            </span>
           </div>
           <div className="hidden lg:flex items-center gap-[40px]">
             <div className="flex gap-[12px]">
