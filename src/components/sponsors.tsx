@@ -23,35 +23,37 @@ const sponsors = [
 
 export const Sponsors = () => {
   return (
-    <div className="-mt-24 mx-auto md:w-[95%] w-full bg-[#FCFAF2]">
+    <div className="-mt-24 mx-auto md:w-[95%] w-full bg-[#FCFAF2] -rotate-[.5deg]">
       <div className="w-full flex flex-col items-center justify-center">
         <div className="flex flex-col w-[95%] p-8 bg-[#FCFAF2]">
           <div className="flex lg:flex-row md:flex-wrap flex-col gap-6 items-center justify-between text-center w-full">
-            <div>
-              <h3 className="lg:text-7xl md:text-6xl text-5xl">$320K</h3>
-              <p className="text-secondaryTextColor">
+            <div className="text-primaryTextColor">
+              <h3 className="lg:text-[90px] text-[56px] lg:leading-[88px] leading-[56px] font-onest sm:font-light font-[400]">
+                $320K
+              </h3>
+              <p className="font-light text-lg leading-6 text-center md:font-[400] md:text-base md:leading-5 lg:text-lg lg:leading-6">
                 average raised by our students
               </p>
             </div>
             <div>
-              <h3 className="lg:text-7xl md:text-6xl text-5xl">75%</h3>
-              <p className="text-secondaryTextColor">
+              <h3 className="lg:text-[90px] text-[56px] lg:leading-[88px] leading-[56px] font-onest sm:font-light font-[400]">
+                75%
+              </h3>
+              <p className="font-light text-lg leading-6 text-center md:font-[400] md:text-base md:leading-5 lg:text-lg lg:leading-6">
                 of our students closing funds round
               </p>
             </div>
-            <div>
-              <h3 className="lg:text-7xl md:text-6xl text-5xl tracking-wide">
+            <div className="text-primaryTextColor">
+              <h3 className="lg:text-[90px] text-[56px] lg:leading-[88px] leading-[56px] font-onest sm:font-light font-[400]">
                 9.8/10
               </h3>
-              <p className="text-secondaryTextColor">
+              <p className="font-light text-lg leading-6 text-center md:font-[400] md:text-base md:leading-5 lg:text-lg lg:leading-6">
                 students are likely to recommend us
               </p>
             </div>
           </div>
           <div>
-            <h4 className="text-primaryColor text-start text-2xl my-4">
-              Joined by experts with experience in:
-            </h4>
+            <h4>Joined by experts with experience in:</h4>
             <div className="flex justify-start lg:justify-end gap-x-10 flex-wrap gap-y-5">
               {sponsors.map((sponsor, index) => (
                 <Image
