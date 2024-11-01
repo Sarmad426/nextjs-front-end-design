@@ -17,9 +17,9 @@ const Hero = () => {
           <button className="btn hover:bg-[#f2f0dc] uppercase bg-white text-[16px] leading-6 font-medium w-[255px] h-[52px]">
             Discover our Differences
           </button>
-          <button className="btn uppercase bg-primaryColor hover:bg-hoverColor text-white leading-6 text-[16px] font-medium md:w-[350px] w-[330px] h-[52px]">
+          <button className="flex items-center justify-center btn uppercase bg-primaryColor hover:bg-hoverColor text-white leading-6 text-[16px] font-medium md:w-[350px] w-[330px] h-[52px]">
             Learn more about our Program
-            <ArrowRight className="w-4 h-4 inline-block pl-2" />
+            <ArrowRight className="w-10 inline-block pl-2" />
           </button>
         </div>
       </div>
