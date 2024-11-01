@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/navbar";
 
 import { Roboto } from "next/font/google";
+import AOSInit from "@/components/aos-init";
 
 // const geistSans = localFont({
 //   src: "./fonts/GeistVF.woff",
@@ -38,6 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${roboto.className} antialiased p-0 m-0 w-full h-full`}>
+        <AOSInit />
         <Navbar />
         {children}
       </body>
