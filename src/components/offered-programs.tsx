@@ -1,5 +1,4 @@
 import React from "react";
-import Separator from "./custom/separator";
 import Image from "next/image";
 import StudentsImage from "@/assets/students.png";
 import { ArrowUpRight } from "lucide-react";
@@ -8,7 +7,9 @@ const OfferedPrograms = () => {
   return (
     <div className="mx-auto w-[95%]">
       <h3 className="text-primaryColor text-2xl my-2">What do we Offer?</h3>
-      <Separator />
+      <hr className="border-[#BCD4C7]" />
+      <hr className="border border-[#193E2C] lg:w-[350px] w-[270px] -mt-[.5px]" />
+
       <div className="lg:grid lg:grid-cols-2 md:flex items-center justify-center gap-0 md:flex-col lg:flex-row mt-8">
         <div className="flex items-center justify-between col-span-1">
           <Image src={StudentsImage} alt="Image" className="h-[480px]" />
