@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import React from "react";
-import Separator from "./custom/separator";
 import GoogleIcon from "@/assets/google.svg";
 import MetaIcon from "@/assets/meta.svg";
 import SequoiaIcon from "@/assets/sequoia.svg";
@@ -75,16 +74,18 @@ export const Sponsors = () => {
         </div>
       </div>
       <div className="p-8 mx-auto w-[95%] bg-[#FCFAF2]">
-        <h4 className="text-start text-3xl text-primaryColor my-3">
+        <h4 className="text-start font-[400] text-xl leading-6 md:text-2xl md:leading-8 text-primaryColor my-2">
           What is Genoa Entrepreneurship school?
         </h4>
-        <Separator />
+        {/* <Separator /> */}
+        <hr />
+        <hr className="border border-[#193E2C] lg:w-[250px] w-[220px]" />
         <div>
           <div className="grid lg:grid-cols-5 grid-cols-1 gap-12 my-6">
-            <h3 className="lg:text-5xl md:text-4xl text-3xl uppercase col-span-2">
+            <h3 className="font-onest uppercase font-light text-[28px] leading-7 md:text-[40px] md:leading-[48px] lg:text-[48px] lg:leading-[56px] col-span-2">
               bridging the startups and academia
             </h3>
-            <p className="lg:text-xl md:text-lg text-sm text-secondaryTextColor col-span-3">
+            <p className="text-primaryTextColor col-span-3 font-light text-base md:text-[20px] md:leading-[28px]">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Similique maxime blanditiis inventore! Optio a eum maiores autem
               omnis dolores aperiam recusandae, eligendi culpa voluptatem
@@ -94,7 +95,9 @@ export const Sponsors = () => {
             </p>
           </div>
           <div>
-            <h4 className="text-xl">Academia Partners</h4>
+            <h4 className="text-primaryTextColor text-base ">
+              Academia Partners
+            </h4>
             <div className="flex items-center md:justify-start justify-between gap-4 flex-wrap mt-3 w-full">
               <div>
                 <Image
