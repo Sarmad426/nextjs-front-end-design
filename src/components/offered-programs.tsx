@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import StudentsImage from "@/assets/students.png";
+import MobileViewStudentImage from "@/assets/student.jpg";
 import { ArrowUpRight } from "lucide-react";
 
 const OfferedPrograms = () => {
@@ -12,28 +13,41 @@ const OfferedPrograms = () => {
 
       <div className="lg:grid lg:grid-cols-2 md:flex items-center justify-center gap-0 md:flex-col lg:flex-row mt-8">
         <div className="flex items-center justify-between col-span-1">
-          <Image src={StudentsImage} alt="Image" className="h-[480px]" />
+          <Image
+            src={StudentsImage}
+            alt="Image"
+            className="h-[480px] hidden sm:flex"
+          />
+          <Image
+            src={MobileViewStudentImage}
+            alt="Image"
+            className="h-auto sm:hidden"
+          />
         </div>
         <div className="bg-[#193E2C] w-full h-full p-4 col-span-1 max-h-[480px]">
           <div className="lg:flex lg:flex-col md:flex">
-            <h3 className="text-[#43AA13] lg:text-5xl md:text-4xl text-3xl">
+            <h3 className="text-[#43AA13] font-normal text-2xl leading-[24px] md:text-[32px] md:leading-[32px] lg:font-light lg:text-5xl lg:leading-[48px]">
               Master in International Business creation
             </h3>
-            <div className="text-white m-6">
+            <div className="text-whiteTextColor m-6">
               <div className="lg:flex w-full gap-6 mx-6">
-                <div>
-                  <span className="font-light text-gray-300">Duration:</span>
-                  <p className="font-semibold inline">8 Months</p>
+                <div className="flex gap-2">
+                  <span className="font-light text-sm leading-[24px] lg:text-lg lg:leading-[24px] pr-0.5">
+                    Duration:
+                  </span>
+                  <p className="font-normal text-base">8 Months</p>
                 </div>
                 <div>
-                  <span className="font-light text-gray-300">Ideal stage:</span>
+                  <span className="font-light text-sm leading-[24px] lg:text-lg lg:leading-[24px]">
+                    Ideal stage:
+                  </span>
                   <p className="font-semibold inline">
                     from No idea to pre seed
                   </p>
                 </div>
               </div>
               <div className="my-4 mx-6">
-                <span className="font-light inline text-gray-300">
+                <span className="font-light text-sm leading-[24px] lg:text-lg lg:leading-[24px]">
                   Locations:
                 </span>
                 <p className="font-semibold inline">
