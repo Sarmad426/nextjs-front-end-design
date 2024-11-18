@@ -30,7 +30,7 @@ const OfferedPrograms = () => {
               Master in International Business creation
             </h3>
             <div className="text-whiteTextColor m-6">
-              <div className="lg:flex w-full gap-6 mx-6">
+              <div className="text-start w-full gap-6 mx-6">
                 <div className="flex gap-2">
                   <span className="font-light text-sm leading-[24px] lg:text-lg lg:leading-[24px] pr-0.5">
                     Duration:
@@ -38,21 +38,21 @@ const OfferedPrograms = () => {
                   <p className="font-normal text-base">8 Months</p>
                 </div>
                 <div>
-                  <span className="font-light text-sm leading-[24px] lg:text-lg lg:leading-[24px]">
+                  <span className="font-light text-sm leading-[24px] lg:text-lg lg:leading-[24px] pr-0.5">
                     Ideal stage:
                   </span>
-                  <p className="font-semibold inline">
+                  <p className="font-normal text-base">
                     from No idea to pre seed
                   </p>
                 </div>
-              </div>
-              <div className="my-4 mx-6">
-                <span className="font-light text-sm leading-[24px] lg:text-lg lg:leading-[24px]">
-                  Locations:
-                </span>
-                <p className="font-semibold inline">
-                  Washington DC, New York, San Francisco,Genoa
-                </p>
+                <div className="my-4 mx-6">
+                  <span className="font-light text-sm leading-[24px] lg:text-lg lg:leading-[24px]">
+                    Locations:
+                  </span>
+                  <p className="font-semibold inline">
+                    Washington DC, New York, San Francisco,Genoa
+                  </p>
+                </div>
               </div>
             </div>
           </div>
