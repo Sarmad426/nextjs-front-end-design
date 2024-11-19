@@ -29,15 +29,15 @@ const OfferedPrograms = () => {
             <h3 className="text-[#43AA13] font-normal text-2xl leading-[24px] md:text-[32px] md:leading-[32px] lg:font-light lg:text-5xl lg:leading-[48px]">
               Master in International Business creation
             </h3>
-            <div className="text-whiteTextColor m-6">
-              <div className="text-start w-full gap-6 mx-6">
+            <div className="text-whiteTextColor mt-3 mx-3">
+              <div className="justify-start md:flex md:flex-col lg:flex lg:flex-wrap text-start w-full gap-6 mx-6">
                 <div className="flex gap-2">
-                  <span className="font-light text-sm leading-[24px] lg:text-lg lg:leading-[24px] pr-0.5">
+                  <span className="font-light text-sm leading-[24px] lg:text-lg lg:leading-[24px] pr-0.5 text-[#FCFAF2]">
                     Duration:
                   </span>
                   <p className="font-normal text-base">8 Months</p>
                 </div>
-                <div>
+                <div className="flex gap-2">
                   <span className="font-light text-sm leading-[24px] lg:text-lg lg:leading-[24px] pr-0.5">
                     Ideal stage:
                   </span>
@@ -45,22 +45,21 @@ const OfferedPrograms = () => {
                     from No idea to pre seed
                   </p>
                 </div>
-                <div className="my-4 mx-6">
+                <div className="flex gap-2">
                   <span className="font-light text-sm leading-[24px] lg:text-lg lg:leading-[24px]">
                     Locations:
                   </span>
-                  <p className="font-semibold inline">
+                  <p className="text-[16px] leading-[22px] font-normal lg:text-xl lg:leading-[26px] inline">
                     Washington DC, New York, San Francisco,Genoa
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="lg:mt-20 text-white">
+          <div className="lg:mt-20 mt-7 text-white">
             <p>
               &quot; Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Ipsum in animi sint fugit vero molestias libero fugiat quisquam,
-              odit voluptate eum incidunt nihil sit expedita! &quot;
+              Ipsum in animi sint fugit vero molestias libero fugiat &quot;
             </p>
             <span className="text-gray-300 mt-7">Lorem, ipsum dolor.</span>
 
