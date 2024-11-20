@@ -3,6 +3,7 @@
 import Hero from "@/components/hero";
 import MeetProfessor from "@/components/meet-professor";
 import OfferedPrograms from "@/components/offered-programs";
+import OurNetwork from "@/components/our-network";
 import { Sponsors } from "@/components/sponsors";
 import { WhyGenoas } from "@/components/why-genoas";
 
@@ -14,6 +15,7 @@ export default function Home() {
       <MeetProfessor />
       <OfferedPrograms />
       <WhyGenoas />
+      <OurNetwork />
     </main>
   );
 }
