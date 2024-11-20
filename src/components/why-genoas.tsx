@@ -19,7 +19,7 @@ export const WhyGenoas = () => {
           cities while studying
         </h3>
       </div>
-      <div className="sm:mx-5 mx-3 md:grid lg:grid-cols-3 md:grid-cols-2 my-12 flex flex-col gap-4 items-start justify-start w-full">
+      <div className="sm:mx-5 mx-3 md:grid lg:grid-cols-3 md:grid-cols-2 my-6 flex flex-col gap-4 items-start justify-start w-full">
         <div className="relative col-span-1 mx-2">
           <div className="absolute -left-3 top-0 border-l border-primaryColor h-full rotate-180 hidden sm:flex" />
           <div className="sm:pl-5 p-3">
