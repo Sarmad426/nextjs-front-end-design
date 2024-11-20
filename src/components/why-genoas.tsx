@@ -19,10 +19,11 @@ export const WhyGenoas = () => {
           cities while studying
         </h3>
       </div>
-      <div className="sm:mx-6 mx-3 lg:grid lg:grid-cols-3 mt-12 flex flex-col flex-wrap items-center justify-center md:flex md:flex-row gap-4 w-full">
-        <div className="col-span-1">
-          <div className="sm:border-l sm:border-primaryColor sm:pl-8 p-3">
-            <div className="flex md:flex-col font-onest gap-4">
+      <div className="sm:mx-5 mx-3 md:grid lg:grid-cols-3 md:grid-cols-2 my-12 flex flex-col gap-4 items-start justify-start w-full">
+        <div className="relative col-span-1 mx-2">
+          <div className="absolute -left-3 top-0 border-l border-primaryColor h-full rotate-180 hidden sm:flex" />
+          <div className="sm:pl-5 p-3">
+            <div className="flex md:flex-col items-start justify-start font-onest gap-4">
               <h4 className="text-primaryColor font-light text-2xl leading-[24px] md:text-[32px] md:leading-[32px]">
                 01
               </h4>
@@ -48,15 +49,16 @@ export const WhyGenoas = () => {
             </ul>
           </div>
         </div>
-        <div className="col-span-1">
-          <div className="sm:border-l sm:border-primaryColor sm:pl-8 p-3">
+        <div className="relative col-span-1 mx-2">
+          <div className="absolute -left-3 top-0 border-l border-primaryColor h-[90%] rotate-180 hidden sm:flex" />
+          <div className="sm:pl-8 p-3">
             <div className="flex md:flex-col font-onest gap-4">
               <h4 className="text-primaryColor font-light text-2xl leading-[24px] md:text-[32px] md:leading-[32px]">
                 02
               </h4>
               <h3 className="font-light text-lg leading-[24px] md:text-xl lg:text-2xl">
                 Learn by combining theory and practice by building in the most
-                stimulating US & EU cities
+                stimulating US & EU cities{" "}
               </h3>
             </div>
             <hr className="border-[#BCD4C7] w-[22rem] sm:hidden my-2" />{" "}
@@ -76,8 +78,9 @@ export const WhyGenoas = () => {
             </ul>
           </div>
         </div>
-        <div className="col-span-1">
-          <div className="sm:border-l sm:border-primaryColor sm:pl-8 p-3">
+        <div className="relative col-span-1 mx-2">
+          <div className="absolute -left-3 top-0 border-l border-primaryColor h-full rotate-180 hidden sm:flex" />
+          <div className="sm:pl-8 p-3">
             <div className="flex md:flex-col font-onest gap-4">
               <h4 className="text-primaryColor font-light text-2xl leading-[24px] md:text-[32px] md:leading-[32px]">
                 03
