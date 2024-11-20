@@ -4,6 +4,7 @@ import Hero from "@/components/hero";
 import MeetProfessor from "@/components/meet-professor";
 import OfferedPrograms from "@/components/offered-programs";
 import { Sponsors } from "@/components/sponsors";
+import { WhyGenoas } from "@/components/why-genoas";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Sponsors />
       <MeetProfessor />
       <OfferedPrograms />
+      <WhyGenoas />
     </main>
   );
 }
