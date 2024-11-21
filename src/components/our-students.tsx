@@ -10,9 +10,9 @@ import GabrielRossi from "@/assets/gabriele-rossi.webp";
 
 const OurStudents = () => {
   return (
-    <div className="flex flex-col lg:grid grid-cols-4 gap-4 my-4 md:mx-6 mx-1.5">
-      <div className="col-span-1 flex lg:flex-col justify-between">
-        <h3 className="font-onest font-light text-[22px] leading-[26px] md:text-[32px] md:leading-10 lg:w-full md:w-[75%] w-[90%]">
+    <div className="flex flex-col lg:grid grid-cols-4 gap-4 my-16 md:mx-6 mx-1.5">
+      <div className="col-span-1 flex lg:flex-col lg:justify-start lg:gap-5 justify-between w-full">
+        <h3 className="uppercase font-onest font-light text-[22px] leading-[26px] md:text-[32px] md:leading-10 lg:w-5/6 md:w-[75%] w-[90%]">
           Understand the Experience Directly From our students
         </h3>
         <ArrowRight size={50} className="text-primaryColor hidden md:flex" />
@@ -38,7 +38,7 @@ const OurStudents = () => {
             className="h-[250px] lg:h-[229px] xl:h-[450px] w-full object-cover object-top"
           />
         </div>
-        <div className="bg-[#E5EBDD] p-4 min-w-[300px] min-h-[600px] md:h-[640px] md:min-w-[436px] overflow-hidden">
+        <div className="bg-[#BCD4C7] p-4 min-w-[300px] min-h-[600px] md:h-[640px] md:min-w-[436px] overflow-hidden">
           <p className="font-light text-xl leading-6 md:text-2xl">
             “The other students are amazing people, and mentors are incredible.
             They are at a global level, but they take the time to be with you
