@@ -1,6 +1,12 @@
 import { ArrowDown, ArrowRight } from "lucide-react";
 import React from "react";
 
+import Linkedin from "@/assets/linkedin.svg";
+import Image from "next/image";
+
+import LiaDelic from "@/assets/lea-delic.webp";
+// import Link from "next/link";
+
 const OurStudents = () => {
   return (
     <div className="flex flex-col lg:grid lg:grid-cols-4 gap-4 my-4 mx-6">
@@ -11,8 +17,46 @@ const OurStudents = () => {
         <ArrowRight size={50} className="text-primaryColor hidden md:flex" />
         <ArrowDown size={35} className="text-primaryColor flex md:hidden" />
       </div>
-      {/* Todo Student cards */}
-      <div className="col-span-3">Student cards here</div>
+      <div className="col-span-3 flex gap-4 overflow-x-scroll" dir="ltr">
+        <div className="bg-[#E5EBDD] p-4 w-[300px] h-[600px] overflow-hidden">
+          <p className="font-light text-xl leading-6 md:text-2xl">
+            “I wasn&apos;t considering pursuing a master&apos;s degree but this
+            course is practical and opens incredible doors. It certainly is the
+            experience that has improved me the most in my life.”
+          </p>
+          <div className="mt-4">
+            <Image src={Linkedin} alt="linkedin" />
+            <h5 className="font-medium text-base leading-5 my-3">Lea Delic</h5>
+            <p className="font-light text-sm md:text-lg leading-6">
+              Student founder 2023
+            </p>
+          </div>
+          <Image
+            src={LiaDelic}
+            alt="lia delic"
+            className="md:w-[90%] w-[95%]"
+          />
+        </div>
+        <div className="bg-[#E5EBDD] p-4 w-[300px] h-[600px] overflow-hidden">
+          <p className="font-light text-xl leading-6 md:text-2xl">
+            “I wasn&apos;t considering pursuing a master&apos;s degree but this
+            course is practical and opens incredible doors. It certainly is the
+            experience that has improved me the most in my life.”
+          </p>
+          <div className="mt-4">
+            <Image src={Linkedin} alt="linkedin" />
+            <h5 className="font-medium text-base leading-5 my-3">Lea Delic</h5>
+            <p className="font-light text-sm md:text-lg leading-6">
+              Student founder 2023
+            </p>
+          </div>
+          <Image
+            src={LiaDelic}
+            alt="lia delic"
+            className="md:w-[90%] w-[95%]"
+          />
+        </div>
+      </div>
     </div>
   );
 };
