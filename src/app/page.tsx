@@ -1,6 +1,7 @@
 "use client";
 
 import Hero from "@/components/hero";
+import LifeAtGenoa from "@/components/life-at-genoa";
 import MeetProfessor from "@/components/meet-professor";
 import OfferedPrograms from "@/components/offered-programs";
 import OurNetwork from "@/components/our-network";
@@ -16,6 +17,7 @@ export default function Home() {
       <OfferedPrograms />
       <WhyGenoas />
       <OurNetwork />
+      <LifeAtGenoa />
     </main>
   );
 }
