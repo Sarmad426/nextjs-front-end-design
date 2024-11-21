@@ -4,8 +4,8 @@ import React from "react";
 
 export const WhyGenoas = () => {
   return (
-    <div className="md:w-[95%] w-full flex items-center justify-center xl:mx-16">
-      <div className="p-8 w-[95%]">
+    <div className="md:w-[95%] w-full flex flex-col items-center justify-center xl:mx-16">
+      <div className="p-8 w-[95%] xl:w-full">
         <h4 className="text-start font-normal text-xl leading-6 md:text-2xl md:leading-8 text-primaryColor my-2">
           Why Genoa Entrepreneurship School?
         </h4>
