@@ -6,7 +6,7 @@ import LifeAtGenoaImage from "@/assets/how-is-life-at-genoaes.webp";
 
 const LifeAtGenoa = () => {
   return (
-    <div className="md:w-[95%] w-full">
+    <div className="md:w-[95%] w-full xl:mx-auto">
       <div className="p-8 w-[95%]">
         <h4 className="text-start font-normal text-xl leading-6 md:text-2xl md:leading-8 text-primaryColor my-2">
           How is life at Genoa Entrepreneurship School?
