@@ -1,5 +1,5 @@
 import React from "react";
-import Separator from "./custom/separator";
+import Separator from "../custom/separator";
 
 import Image from "next/image";
 import Link from "next/link";

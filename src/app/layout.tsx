@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "@/components/navbar";
+import Navbar from "@/components/global/navbar";
 
 import { Roboto } from "next/font/google";
-import AOSInit from "@/components/aos-init";
-import Footer from "@/components/footer";
+import AOSInit from "@/components/global/aos-init";
+import Footer from "@/components/global/footer";
 
 // const geistSans = localFont({
 //   src: "./fonts/GeistVF.woff",

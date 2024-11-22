@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import React from "react";
-import Separator from "./custom/separator";
+import Separator from "../custom/separator";
 import { routes } from "@/data/routes";
 import { ArrowRight, Menu } from "lucide-react";
 
