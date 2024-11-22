@@ -3,7 +3,7 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
 
-const Hero = () => {
+export const Hero = () => {
   return (
     <div
       data-aos="fade-up"
@@ -31,5 +31,3 @@ const Hero = () => {
     </div>
   );
 };
-
-export default Hero;

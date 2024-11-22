@@ -8,7 +8,7 @@ import LiaDelic from "@/assets/lea-delic.webp";
 import Chalermchon from "@/assets/chalermchon.webp";
 import GabrielRossi from "@/assets/gabriele-rossi.webp";
 
-const OurStudents = () => {
+export const OurStudents = () => {
   return (
     <div className="flex flex-col lg:grid grid-cols-4 gap-4 my-12 md:mx-6 mx-1.5">
       <div className="col-span-1 flex lg:flex-col lg:justify-start lg:gap-5 justify-between w-full">
@@ -84,5 +84,3 @@ const OurStudents = () => {
     </div>
   );
 };
-
-export default OurStudents;

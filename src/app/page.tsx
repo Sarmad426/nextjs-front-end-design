@@ -1,13 +1,13 @@
 "use client";
 
-import Hero from "@/components/hero";
-import LifeAtGenoa from "@/components/life-at-genoa";
-import MeetProfessor from "@/components/meet-professor";
-import OfferedPrograms from "@/components/offered-programs";
-import OurNetwork from "@/components/our-network";
-import OurStudents from "@/components/our-students";
+import { Hero } from "@/components/hero";
+import { LifeAtGenoa } from "@/components/life-at-genoa";
+import { MeetProfessor } from "@/components/meet-professor";
+import { OfferedPrograms } from "@/components/offered-programs";
+import { OurNetwork } from "@/components/our-network";
+import { OurStudents } from "@/components/our-students";
 import { Sponsors } from "@/components/sponsors";
-import StartJourney from "@/components/start-journey";
+import { StartJourney } from "@/components/start-journey";
 import { WhyGenoas } from "@/components/why-genoas";
 
 export default function Home() {

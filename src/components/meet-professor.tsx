@@ -3,7 +3,7 @@ import React from "react";
 
 import GeorgeUniIcon from "@/assets/georgetown-uni.svg";
 
-const MeetProfessor = () => {
+export const MeetProfessor = () => {
   return (
     <div className="mx-auto md:w-[95%]">
       <div className="mx-auto my-8 bg-[#FAF5E2] text-black">
@@ -50,5 +50,3 @@ const MeetProfessor = () => {
     </div>
   );
 };
-
-export default MeetProfessor;

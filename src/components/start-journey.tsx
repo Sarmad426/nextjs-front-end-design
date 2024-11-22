@@ -3,7 +3,7 @@ import Image from "next/image";
 import Journey from "@/assets/journey.webp";
 import { ArrowUpRight } from "lucide-react";
 
-const StartJourney = () => {
+export const StartJourney = () => {
   return (
     <div className="mx-auto w-[95%]">
       <div className="flex items-center flex-col lg:flex-row mt-8 w-full xl:col-span-1 xl:justify-center">
@@ -37,5 +37,3 @@ const StartJourney = () => {
     </div>
   );
 };
-
-export default StartJourney;

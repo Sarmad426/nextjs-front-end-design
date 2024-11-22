@@ -5,7 +5,7 @@ import MissionMobile from "@/assets/mission-mobile.webp";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 
-const OurNetwork = () => {
+export const OurNetwork = () => {
   return (
     <div className="md:w-[95%] w-full xl:mx-auto">
       <div className="p-8 w-[95%]">
@@ -54,5 +54,3 @@ const OurNetwork = () => {
     </div>
   );
 };
-
-export default OurNetwork;

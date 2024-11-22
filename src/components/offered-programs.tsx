@@ -4,7 +4,7 @@ import StudentsImage from "@/assets/students.png";
 import MobileViewStudentImage from "@/assets/student.jpg";
 import { ArrowUpRight } from "lucide-react";
 
-const OfferedPrograms = () => {
+export const OfferedPrograms = () => {
   return (
     <div className="mx-auto w-[95%]">
       <h3 className="text-primaryColor text-2xl my-2">What do we Offer?</h3>
@@ -75,5 +75,3 @@ const OfferedPrograms = () => {
     </div>
   );
 };
-
-export default OfferedPrograms;

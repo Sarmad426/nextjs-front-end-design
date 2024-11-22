@@ -4,7 +4,7 @@ import React from "react";
 
 import LifeAtGenoaImage from "@/assets/how-is-life-at-genoaes.webp";
 
-const LifeAtGenoa = () => {
+export const LifeAtGenoa = () => {
   return (
     <div className="md:w-[95%] w-full xl:mx-auto">
       <div className="p-8 w-[95%]">
@@ -51,5 +51,3 @@ const LifeAtGenoa = () => {
     </div>
   );
 };
-
-export default LifeAtGenoa;
