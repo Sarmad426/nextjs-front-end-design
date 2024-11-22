@@ -19,13 +19,13 @@ export const AboutHero = () => {
   ];
   return (
     <div className="bg-[#193E2C] text-white flex flex-col items-center justify-center w-full p-3 pb-8 lg:pb-1.5 lg:h-screen">
-      <div className="flex flex-col-reverse lg:grid grid-cols-2 mx-6 md:mx-16">
+      <div className="flex flex-col-reverse lg:grid grid-cols-2 place-items-center mx-6 md:mx-16">
         <div className="col-span-1 flex flex-col items-center gap-5 justify-around">
           <div className="flex flex-col gap-5 items-center">
             <h2 className="font-onest uppercase font-medium text-[32px] leading-10 md:font-light md:text-[40px]">
               Bridging the academia and startup worlds
             </h2>
-            <p className="text-lg leading-6 md:font-light md:text-2xl">
+            <p className="text-lg leading-6 md:font-light md:text-2xl text-[#FCFAF2]">
               We are a joint effort between the University of Genoa, companies,
               and institutions. Our is goal to empower international
               entrepreneurs through dynamic learning experiences with industry
@@ -44,7 +44,7 @@ export const AboutHero = () => {
           <Image
             src={VosGenoaes}
             alt="Vos Genoaes"
-            className="min-w-[328px] min-h-[300px] xl:w-[640px] xl:h-[484px]"
+            className="min-w-[328px] min-h-[300px] xl:w-full"
           />
         </div>
       </div>
