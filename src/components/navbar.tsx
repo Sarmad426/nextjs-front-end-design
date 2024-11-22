@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import Separator from "./custom/separator";
 import { routes } from "@/data/routes";
-import { Menu } from "lucide-react";
+import { ArrowRight, Menu } from "lucide-react";
 
 import Genoaes from "@/assets/logo.svg";
 import Image from "next/image";
@@ -36,7 +36,10 @@ const Navbar = () => {
                 <Link
                   href={`/${route.toLowerCase().replace(" ", "-")}`}
                   key={route}
-                  className="text-sm px-[18px] leading-6 font-normal"
+                  className={`text-sm py-2 px-[18px] leading-6 font-normal ${
+                    pathname === `/${route.toLowerCase()}` &&
+                    "border border-primaryColor"
+                  } `}
                 >
                   {route}
                 </Link>
@@ -51,8 +54,9 @@ const Navbar = () => {
                 </option>
               </select>
             </div>
-            <button className="bg-primaryColor w-[90px] h-[41px]  hover:bg-hoverColor transition-colors duration-200">
-              Apply
+            <button className="flex items-center justify-center gap-2 bg-primaryColor w-[90px] h-[41px]  hover:bg-hoverColor transition-colors duration-200">
+              <span>Apply</span>
+              <ArrowRight className="w-4" />
             </button>
           </div>
           <Menu className="lg:hidden flex cursor-pointer" />
