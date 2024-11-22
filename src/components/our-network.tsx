@@ -7,7 +7,7 @@ import { ArrowRight } from "lucide-react";
 
 const OurNetwork = () => {
   return (
-    <div className="md:w-[95%] w-full">
+    <div className="md:w-[95%] w-full xl:mx-auto">
       <div className="p-8 w-[95%]">
         <h4 className="text-start font-normal text-xl leading-6 md:text-2xl md:leading-8 text-primaryColor my-2">
           Who is in our network?
@@ -16,11 +16,14 @@ const OurNetwork = () => {
         <hr className="border border-[#193E2C] lg:w-[250px] w-[220px] -mt-[.5px]" />
       </div>
       <div className="mx-6 flex items-center justify-center w-full relative">
-        <Image src={Mission} alt="Our mission" className="hidden lg:flex" />
+        <Image
+          src={Mission}
+          alt="Our mission"
+          className="hidden lg:flex xl:w-full"
+        />
         <Image
           src={MissionMobile}
           alt="Our mission"
-          // className="sm:hidden flex"
           width="8000"
           height="8000"
           decoding="async"
@@ -29,7 +32,6 @@ const OurNetwork = () => {
           loading="lazy"
           style={{ color: "transparent" }}
         />
-
         <div className="absolute right-1 top-8 text-white lg:w-[45%] w-full p-3.5">
           <h3 className="font-onest font-light text-[32px] leading-[32px] md:text-[40px] md:leading-[48px] lg:text-5xl lg:leading-[54px]">
             Joined by experts who{" "}
