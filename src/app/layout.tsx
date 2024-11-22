@@ -4,6 +4,7 @@ import Navbar from "@/components/navbar";
 
 import { Roboto } from "next/font/google";
 import AOSInit from "@/components/aos-init";
+import Footer from "@/components/footer";
 
 // const geistSans = localFont({
 //   src: "./fonts/GeistVF.woff",
@@ -33,10 +34,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${roboto.className} antialiased p-0 m-0 w-full h-full`}>
+      <body
+        className={`${roboto.className} antialiased p-0 m-0 w-full h-full text-primaryTextColor`}
+      >
         <AOSInit />
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
