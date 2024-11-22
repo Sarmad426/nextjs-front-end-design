@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import React from "react";
 import Separator from "./custom/separator";
@@ -6,10 +7,18 @@ import { Menu } from "lucide-react";
 
 import Genoaes from "@/assets/logo.svg";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 const Navbar = () => {
+  const pathname = usePathname();
+
+  console.log("Path", pathname);
   return (
-    <header className="absolute top-0 left-0 w-full z-[9999] p-6">
+    <header
+      className={`absolute top-0 left-0 w-full z-[9999] p-6 ${
+        pathname != "/" && "bg-[#193E2C]"
+      }`}
+    >
       <nav className="flex flex-col gap-[24px]">
         <div className="flex items-center justify-between leading-none text-white">
           <div>
