@@ -4,7 +4,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="w-full mb-[90%]">
+    <div className="w-full">
       <AboutHero />
       <StudentExamples />
     </div>

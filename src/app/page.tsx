@@ -12,7 +12,7 @@ import { WhyGenoas } from "@/components/home/why-genoas";
 
 export default function Home() {
   return (
-    <main className="flex flex-col gap-y-6 w-full h-full ">
+    <main className="flex flex-col gap-y-6 w-full h-full">
       <Hero />
       <Sponsors />
       <MeetProfessor />
