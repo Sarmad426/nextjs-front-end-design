@@ -18,7 +18,7 @@ export const Hero = () => {
           network while obtaining a master&apos;s degree
         </h4>
         <div className="flex flex-wrap gap-8 my-4 items-center justify-center">
-          <button className="btn hover:bg-[#f2f0dc] uppercase bg-white text-[16px] leading-6 font-medium md:w-[255px] w-[330px] h-[52px]">
+          <button className="btn hover:bg-[#f2f0dc] uppercase bg-white text-[16px] leading-6 font-medium md:w-[275px] w-[330px] h-[52px]">
             Discover our Differences
           </button>
           <button className="flex items-center justify-center btn uppercase bg-primaryColor hover:bg-hoverColor text-white leading-6 text-[16px] font-medium md:w-[350px] w-[330px] h-[52px]">
