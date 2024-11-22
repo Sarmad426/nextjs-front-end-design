@@ -22,7 +22,8 @@ const Hero = () => {
             Discover our Differences
           </button>
           <button className="flex items-center justify-center btn uppercase bg-primaryColor hover:bg-hoverColor text-white leading-6 text-[16px] font-medium md:w-[350px] w-[330px] h-[52px]">
-            Learn more about our Program
+            <span className="hidden md:flex">Learn more about our Program</span>
+            <span className="flex md:hidden">more about our Program</span>
             <ArrowRight className="w-10 inline-block pl-2" />
           </button>
         </div>
