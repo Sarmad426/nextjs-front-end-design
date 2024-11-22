@@ -5,3 +5,7 @@ export const routes = [
     "Why Choose Us?",
     "Career",
 ]
+
+export const footerLinks = [
+    "About us", "Master Program", "Our Network", "Why Choose us?", "Career"
+]
