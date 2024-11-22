@@ -62,12 +62,7 @@ export const Sponsors = () => {
             </h4>
             <div className="flex justify-start lg:justify-end lg:gap-x-10 gap-x-[26px] flex-wrap gap-y-5">
               {sponsors.map((sponsor, index) => (
-                <Image
-                  src={sponsor}
-                  alt={`Sponsor ${index}`}
-                  // className="lg:h-10 md:h-7 h-3"
-                  key={index}
-                />
+                <Image src={sponsor} alt={`Sponsor ${index}`} key={index} />
               ))}
             </div>
           </div>
