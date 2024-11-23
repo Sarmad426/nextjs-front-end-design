@@ -35,7 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${roboto.className} antialiased p-0 m-0 w-full h-full text-primaryTextColor`}
+        className={`${roboto.className} antialiased p-0 m-0 w-full h-full text-primaryTextColor bg-[#fcfaf2]`}
       >
         <AOSInit />
         <Navbar />
