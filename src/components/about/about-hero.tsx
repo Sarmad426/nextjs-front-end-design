@@ -27,7 +27,7 @@ export const AboutHero = () => {
             </h2>
             <p className="text-lg leading-6 md:font-light md:text-2xl text-[#FCFAF2]">
               We are a joint effort between the University of Genoa, companies,
-              and institutions. Our is goal to empower international
+              and institutions. Our goal is to empower international
               entrepreneurs through dynamic learning experiences with industry
               experts, companies and the University of Georgetown.
             </p>
