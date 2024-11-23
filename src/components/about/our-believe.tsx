@@ -4,7 +4,7 @@ export const OurBelieve = () => {
   return (
     <div className="w-[95%] mx-auto my-12">
       <div>
-        <div className="flex flex-col gap-4 md:flex-row md:justify-evenly items-center my-6">
+        <div className="flex flex-col gap-4 md:flex-row md:justify-evenly items-start md:items-center my-6">
           <h2 className="font-light text-[32px] leading-10 md:text-[56px] md:leading-[64px]">
             What we believe in
           </h2>
