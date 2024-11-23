@@ -39,3 +39,16 @@ body {
 .btn {
   @apply p-2 transition-colors duration-300;
 }
+
+@keyframes scroll {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite;
+}
