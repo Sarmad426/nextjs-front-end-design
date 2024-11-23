@@ -1,6 +1,6 @@
 import { Dot } from "lucide-react";
 
-export const MovingText = () => {
+export const InfiniteScrollText = () => {
   const words: string[] = [
     "Pioneer",
     "Discoverer",

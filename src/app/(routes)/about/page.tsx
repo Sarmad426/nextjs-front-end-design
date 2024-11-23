@@ -1,5 +1,5 @@
 import { AboutHero } from "@/components/about/about-hero";
-import { MovingText } from "@/components/about/infinite-scroll-text";
+import { InfiniteScrollText } from "@/components/about/infinite-scroll-text";
 import { OurApproach } from "@/components/about/our-approach";
 import { OurBelieve } from "@/components/about/our-believe";
 import { Statistics } from "@/components/about/statistics";
@@ -14,7 +14,7 @@ const About = () => {
       <OurBelieve />
       <OurApproach />
       <Statistics />
-      <MovingText />
+      <InfiniteScrollText />
     </div>
   );
 };
