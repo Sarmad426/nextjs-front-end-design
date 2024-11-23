@@ -18,7 +18,7 @@ export const InfiniteScrollText = () => {
         <div className="flex animate-scroll">
           {words.map((word, index) => (
             <span
-              className="flex items-center justify-center font-light text-[32px] leading-10 text-white whitespace-nowrap mx-4"
+              className="flex items-center justify-center font-light text-[32px] leading-10 text-[#FCFAF2] whitespace-nowrap mx-4"
               key={`duplicate-${index}`}
             >
               <Dot size={50} className="text-black" />
@@ -27,7 +27,7 @@ export const InfiniteScrollText = () => {
           ))}
           {words.map((word, index) => (
             <span
-              className="flex items-center justify-center font-light text-[32px] leading-10 text-white whitespace-nowrap mx-4"
+              className="flex items-center justify-center font-light text-[32px] leading-10 text-[#FCFAF2] whitespace-nowrap mx-4"
               key={`duplicate-${index}`}
             >
               <Dot size={50} className="text-black" />
