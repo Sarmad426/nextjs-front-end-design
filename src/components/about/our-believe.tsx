@@ -18,8 +18,8 @@ export const OurBelieve = () => {
         </div>
         <div className={cardsDivStyles}>
           <div className="flex flex-col w-full lg:max-w-[48%] bg-[#FAF5E2] p-[16px] md:p-[40px] h-full gap-[20px] justify-between relative group">
-            <div className="absolute left-0 top-0 bottom-0 w-[4px] h-full bg-[#43AA13] opacity-0 transition-all duration-[.3s] group-hover:opacity-100"></div>
-            <h3 className=" text-[24px] lg:text-[32px] font-500 uppercase text-[#193E2C]">
+            <div className="absolute left-0 top-0 bottom-0 w-[4px] h-full bg-[#43AA13] opacity-0 transition-all duration-[.3s] group-hover:opacity-100" />
+            <h3 className="text-[24px] lg:text-[32px] font-500 uppercase text-[#193E2C]">
               Global Approach
             </h3>
             <p className="text-[18px] leading-[24px] text-[#202020b3] font-300">
@@ -32,7 +32,7 @@ export const OurBelieve = () => {
             </p>
           </div>
           <div className="flex flex-col w-full lg:max-w-[48%] bg-[#FAF5E2] p-[16px] md:p-[40px] h-full gap-[20px] justify-between relative group">
-            <div className="absolute left-0 top-0 bottom-0 w-[4px] h-full bg-[#43AA13] opacity-0 transition-all duration-[.3s] group-hover:opacity-100"></div>
+            <div className="absolute left-0 top-0 bottom-0 w-[4px] h-full bg-[#43AA13] opacity-0 transition-all duration-[.3s] group-hover:opacity-100" />
             <h3 className=" text-[24px] lg:text-[32px] font-500 uppercase text-[#193E2C]">
               Personal Mentorship
             </h3>
@@ -49,7 +49,7 @@ export const OurBelieve = () => {
         </div>
         <div className={`${cardsDivStyles} justify-end mt-[16px]`}>
           <div className="flex flex-col w-full lg:max-w-[48%] bg-[#FAF5E2] p-[16px] md:p-[40px] h-full gap-[20px] justify-between relative group">
-            <div className="absolute left-0 top-0 bottom-0 w-[4px] h-full bg-[#43AA13] opacity-0 transition-all duration-[.3s] group-hover:opacity-100"></div>
+            <div className="absolute left-0 top-0 bottom-0 w-[4px] h-full bg-[#43AA13] opacity-0 transition-all duration-[.3s] group-hover:opacity-100" />
             <h3 className=" text-[24px] lg:text-[32px] font-500 uppercase text-[#193E2C]">
               Real World experience
             </h3>
@@ -63,7 +63,7 @@ export const OurBelieve = () => {
             </p>
           </div>
           <div className="flex flex-col w-full lg:max-w-[48%] bg-[#FAF5E2] p-[16px] md:p-[40px] h-full gap-[20px] justify-between relative group">
-            <div className="absolute left-0 top-0 bottom-0 w-[4px] h-full bg-[#43AA13] opacity-0 transition-all duration-[.3s] group-hover:opacity-100"></div>
+            <div className="absolute left-0 top-0 bottom-0 w-[4px] h-full bg-[#43AA13] opacity-0 transition-all duration-[.3s] group-hover:opacity-100" />
             <h3 className="text-[24px] lg:text-[32px] font-500 uppercase text-[#193E2C]">
               Solid HARD Skills
             </h3>
