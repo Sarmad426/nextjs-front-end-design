@@ -18,7 +18,7 @@ export const OurStudents = () => {
         <ArrowRight size={50} className="text-primaryColor hidden md:flex" />
         <ArrowDown size={35} className="text-primaryColor flex md:hidden" />
       </div>
-      <div className="col-span-3 flex gap-2.5 overflow-x-scroll w-full">
+      <div className="col-span-3 flex gap-2.5 overflow-x-scroll scrollbar-hide w-full">
         <div className="bg-[#E5EBDD] p-4 min-w-[300px] min-h-[600px] md:h-[640px] md:min-w-[436px] overflow-hidden">
           <p className="font-light text-xl leading-6 md:text-2xl">
             “I wasn&apos;t considering pursuing a master&apos;s degree but this
