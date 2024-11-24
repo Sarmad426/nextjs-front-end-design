@@ -1,7 +1,9 @@
 import Image from "next/image";
 
 import AcademicAlliance1 from "@/assets/academic-alliances-1.webp";
+import AcademicAlliance2 from "@/assets/academic-alliances-2.webp";
 import GeorgeTownUniLogo from "@/assets/georgetown-uni.svg";
+import GenoaUniIcon from "@/assets/genova.svg";
 
 export const AcademicBody = () => {
   return (
@@ -17,7 +19,7 @@ export const AcademicBody = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-6 md:grid md:grid-cols-2">
+      <div className="flex flex-col gap-6 md:grid md:grid-cols-2 my-8">
         <Image src={AcademicAlliance1} alt="Academic Alliance" />
         <div className="my-3 flex flex-col md:justify-between h-[90%] gap-4">
           <div>
@@ -46,6 +48,37 @@ export const AcademicBody = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="flex flex-col-reverse gap-6 md:grid md:grid-cols-2 my-6 md:my-12">
+        <div className="my-3 flex flex-col md:justify-between h-[90%] gap-4">
+          <div>
+            <h3 className="text-[32px] leading-10 text-primaryColor">
+              Genoa University{" "}
+            </h3>
+            <p className="font-light text-2xl md:text-lg md:leading-6 my-4">
+              Genoa University stands as our academic anchor in Europe. With a
+              rich heritage and commitment to fostering innovation, it&apos;s
+              the ideal backdrop for your entrepreneurial education. Here,
+              you&apos;ll find a supportive environment that values your unique
+              journey.
+            </p>
+          </div>
+          <div className="md:flex md:justify-start gap-5 items-center w-full mt-2">
+            <Image src={GenoaUniIcon} alt="Genoa" className="my-3" />
+            <div>
+              <span className="text-[#E4602F] leading-5 md:text-xs md:leading-[14px] my-3">
+                Censis ranking of italian universities
+              </span>
+              <p className="text-lg leading-8 md:leading-[18px] my-2 md:my-auto">
+                <span className="font-semibold text-2xl md:text-lg md:leading-6">
+                  #1{" "}
+                </span>
+                Engineering in Italy{" "}
+              </p>
+            </div>
+          </div>
+        </div>
+        <Image src={AcademicAlliance2} alt="Academic Alliance" />
       </div>
     </div>
   );
