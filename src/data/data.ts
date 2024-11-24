@@ -26,6 +26,15 @@ import T3 from "@/assets/t3.webp";
 import T4 from "@/assets/t4.webp";
 import T5 from "@/assets/t5.webp";
 
+import EricIcon from '@/assets/eric-feunteun.webp'
+import LaStampaIcon from '@/assets/la-stampa.webp'
+import LaRepublicaIcon from '@/assets/la-republia.svg'
+import StampIcon from '@/assets/stamp-icon.webp'
+
+import Eric from '@/assets/eric-feunteun.webp'
+import LaStampa from '@/assets/la-stampa-img.webp'
+import LaRepublica from '@/assets/la-repubblica.webp'
+import Stamp from '@/assets/commune-di-genova.webp'
 
 export const icons = [
     GoogleIcon,
@@ -75,3 +84,41 @@ export const experts = [
         intro: "Chief Product Officer at Younited ($1.3 bln valuation)",
     },
 ];
+
+export const mediaTalks = [
+    {
+        logo: EricIcon,
+        link: "/",
+        title: "Eric Feunteun",
+        img: Eric,
+        desc: "Real an amazing discovery today in my mentoring session in Genoa Entrepreneurship School,"
+    },
+    {
+        logo: LaStampaIcon,
+        link: "/",
+        title: "La Stampa",
+        img: LaStampa,
+        desc: "Studiare e lavorare, a Genova e Washington il master congiunto in Startup Creation..."
+    },
+    {
+        logo: LaRepublicaIcon,
+        link: "/",
+        title: "La Republica",
+        img: LaRepublica,
+        desc: "Studiare e lavorare, a Genova e Washington il master congiunto in Startup Creation..."
+    },
+    {
+        logo: StampIcon,
+        link: "/",
+        title: "Stamp",
+        img: Stamp,
+        desc: "Studiare e lavorare, a Genova e Washington il master congiunto in Startup Creation..."
+    },
+    {
+        logo: LaStampa,
+        link: "/",
+        title: "La Stampa",
+        img: LaStampa,
+        desc: "Studiare e lavorare, a Genova e Washington il master congiunto in Startup Creation..."
+    },
+]
