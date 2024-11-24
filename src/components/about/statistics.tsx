@@ -9,7 +9,7 @@ export const Statistics = () => {
             Statistics
           </h3>
           <div className="h-[1px] w-full bg-[#BCD4C7] self-end mb-[16px]">
-            <div className="h-[1px] w-[170px] bg-[#193E2C]"></div>
+            <div className="h-[1px] w-[170px] bg-[#193E2C]" />
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-4 mt-[40px]">
