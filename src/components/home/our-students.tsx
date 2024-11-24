@@ -68,7 +68,7 @@ export const OurStudents = () => {
           <div className="mt-12 mb-2">
             <Image src={Linkedin} alt="linkedin" />
             <h5 className="font-medium text-base leading-5 my-3">
-              Chalermchon Puapolthep
+              Gabril Rossi
             </h5>
             <p className="font-light text-sm md:text-lg leading-6">
               Student founder 2023
