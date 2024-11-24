@@ -103,14 +103,17 @@ export const IndustryExperts = () => {
       {/* Industry experts */}
       <div className="flex items-center gap-6 overflow-scroll scrollbar-hide flex-shrink-0">
         {experts.map((expert, i) => (
-          <div key={i} className="relative overflow-hidden min-w-[325px]">
+          <div
+            key={i}
+            className="relative overflow-hidden min-w-[300px] min-h-[300px]"
+          >
             <Image
               src={expert.img}
               alt={expert.name}
-              className="w-[340px] h-[325px]"
+              className="w-[300px] h-[400px]"
             />
-            <div className="absolute bottom-3 left-1.5 flex flex-col gap-y-1.5 min-w-full">
-              <Image src={expert.orgIcon} alt="" />
+            <div className="absolute bottom-2.5 left-2 flex flex-col gap-y-1.5 min-w-full">
+              <Image src={expert.orgIcon} alt="" className="my-2.5" />
               <hr className="w-[90%]" />
               <h5 className="font-medium text-[28px] leading-8 text-[#F5F5F5]">
                 {expert.name}
