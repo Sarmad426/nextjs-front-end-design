@@ -14,7 +14,7 @@ export const StartJourney = () => {
             className="min-w-full h-[300px] md:w-[720px] md:h-[400px] lg:h-[500px]"
           />
         </div>
-        <div className="bg-[#193E2C] w-full p-6 md:max-w-[720px] lg:h-[500px]">
+        <div className="lg:flex lg:flex-col lg:justify-between h-full bg-[#193E2C] w-full p-6 md:max-w-[720px] lg:h-[500px]">
           <div className="lg:flex lg:flex-col md:flex">
             <h4 className="my-2 text-primaryColor font-onest font-normal text-lg leading-6 md:text-[32px] md:leading-10 lg:text-2xl">
               Ready to start your journey
@@ -24,7 +24,7 @@ export const StartJourney = () => {
               career goals.
             </p>
           </div>
-          <div className="lg:mt-20 mt-7">
+          <div className="lg:mt-12 mt-7">
             <div className="flex items-center md:justify-end justify-center">
               <button className="uppercase btn mt-4 flex items-center justify-center gap-3 bg-primaryColor hover:bg-hoverColor text-white text-lg py-2 w-[340px]">
                 Discover our Program
