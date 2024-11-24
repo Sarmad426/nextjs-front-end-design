@@ -7,6 +7,7 @@ import { OurBelieve } from "@/components/about/our-believe";
 import { Statistics } from "@/components/about/statistics";
 import { StudentExamples } from "@/components/about/student-examples";
 import { IndustryExperts } from "@/components/about/industry-experts";
+import { WhatMediaSays } from "@/components/about/what-media-says";
 
 const About = () => {
   return (
@@ -19,6 +20,7 @@ const About = () => {
       <InfiniteScrollText />
       <AcademicBody />
       <IndustryExperts />
+      <WhatMediaSays />
     </div>
   );
 };
