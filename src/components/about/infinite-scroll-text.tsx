@@ -13,7 +13,7 @@ export const InfiniteScrollText = () => {
   ];
 
   return (
-    <div className="w-full mt-24 mb-32">
+    <section className="w-full mt-24 mb-32">
       <div className="overflow-hidden w-full bg-primaryColor -rotate-3 h-[120px] flex items-center justify-center">
         <div className="flex animate-scroll">
           {words.map((word, index) => (
@@ -36,6 +36,6 @@ export const InfiniteScrollText = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };

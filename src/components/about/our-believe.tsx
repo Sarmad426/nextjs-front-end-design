@@ -2,7 +2,7 @@ export const OurBelieve = () => {
   const cardsDivStyles =
     "flex flex-col md:flex-row gap-[16px] w-full px-[16px] lg:px-[40px] h-full md:h-[420px] lg:h-[480px] xl:h-[360px]";
   return (
-    <div className="w-[95%] mx-auto my-12">
+    <section className="w-[95%] mx-auto my-12">
       <div>
         <div className="flex flex-col gap-4 md:flex-row md:justify-evenly items-start md:items-center my-6">
           <h2 className="font-light text-[32px] leading-10 md:text-[56px] md:leading-[64px]">
@@ -78,6 +78,6 @@ export const OurBelieve = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 
 export const Hero = () => {
   return (
-    <div
+    <section
       data-aos="fade-up"
       className="bg-[url(../../public/bg-img.svg)] bg-no-repeat bg-center bg-cover h-[1024px] w-full flex justify-center items-end pb-[180px]"
     >
@@ -28,6 +28,6 @@ export const Hero = () => {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

@@ -2,7 +2,7 @@ import React from "react";
 
 export const Statistics = () => {
   return (
-    <div className="w-[95%] mx-auto my-12">
+    <section className="w-[95%] mx-auto my-12">
       <div>
         <div className="flex flex-col items-start justify-center md:flex-row gap-4 md:justify-between">
           <h3 className="font-light text-[32px] leading-10 md:text-[40px] md:leading-[56px]">
@@ -39,6 +39,6 @@ export const Statistics = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

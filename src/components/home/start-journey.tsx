@@ -5,7 +5,7 @@ import { ArrowUpRight } from "lucide-react";
 
 export const StartJourney = () => {
   return (
-    <div className="mx-auto w-[95%] my-8">
+    <section className="mx-auto w-[95%] my-8">
       <div className="flex items-center flex-col lg:grid lg:grid-cols-2 mt-8 w-full xl:col-span-1 xl:justify-center">
         <div className="col-span-1 flex items-center justify-between">
           <Image
@@ -34,6 +34,6 @@ export const StartJourney = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

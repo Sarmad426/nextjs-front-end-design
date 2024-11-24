@@ -4,7 +4,7 @@ import React from "react";
 
 export const WhyGenoas = () => {
   return (
-    <div className="md:w-[95%] mx-auto w-full flex flex-col items-center justify-center xl:mx-16">
+    <section className="md:w-[95%] mx-auto w-full flex flex-col items-center justify-center xl:mx-16">
       <div className="p-8 w-[95%] md:w-full xl:w-full">
         <h4 className="text-start font-normal text-xl leading-6 md:text-2xl md:leading-8 text-primaryColor my-2">
           Why Genoa Entrepreneurship School?
@@ -107,6 +107,6 @@ export const WhyGenoas = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

@@ -5,7 +5,7 @@ import GeorgeUniIcon from "@/assets/georgetown-uni.svg";
 
 export const MeetProfessor = () => {
   return (
-    <div className="mx-auto md:w-[95%]">
+    <section className="mx-auto md:w-[95%]">
       <div className="mx-auto my-8 bg-[#FAF5E2] text-black">
         <div className="flex lg:flex-row flex-col-reverse">
           <div className="flex-1 flex flex-col justify-between gap-y-12 p-3">
@@ -47,6 +47,6 @@ export const MeetProfessor = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

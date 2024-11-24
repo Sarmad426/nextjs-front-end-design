@@ -7,7 +7,7 @@ import { ArrowRight } from "lucide-react";
 
 export const OurNetwork = () => {
   return (
-    <div className="md:w-[95%] w-full xl:mx-auto">
+    <section className="md:w-[95%] w-full xl:mx-auto">
       <div className="p-8 w-[95%]">
         <h4 className="text-start font-normal text-xl leading-6 md:text-2xl md:leading-8 text-primaryColor my-2">
           Who is in our network?
@@ -51,6 +51,6 @@ export const OurNetwork = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

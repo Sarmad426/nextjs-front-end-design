@@ -4,7 +4,7 @@ import FormulaImage from "@/assets/formula.svg";
 
 export const OurApproach = () => {
   return (
-    <div className="w-[95%] mx-2 md:mx-auto my-16">
+    <section className="w-[95%] mx-2 md:mx-auto my-16">
       <h2 className="hidden md:flex font-light text-[56px] leading-[64px]">
         Our Approach
       </h2>
@@ -34,6 +34,6 @@ export const OurApproach = () => {
         </div>
         <Image src={FormulaImage} alt="Formula" />
       </div>
-    </div>
+    </section>
   );
 };

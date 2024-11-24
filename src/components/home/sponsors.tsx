@@ -24,7 +24,7 @@ const sponsors = [
 
 export const Sponsors = () => {
   return (
-    <div
+    <section
       data-aos="fade-right"
       className="-mt-24 mx-auto md:w-[95%] w-full bg-[#FCFAF2] -rotate-[.5deg]"
     >
@@ -132,6 +132,6 @@ export const Sponsors = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

@@ -10,7 +10,7 @@ import GabrielRossi from "@/assets/gabriele-rossi.webp";
 
 export const OurStudents = () => {
   return (
-    <div className="flex flex-col lg:grid grid-cols-4 gap-4 my-12 md:mx-6 mx-1.5">
+    <section className="flex flex-col lg:grid grid-cols-4 gap-4 my-12 md:mx-6 mx-1.5">
       <div className="col-span-1 flex lg:flex-col lg:justify-start lg:gap-5 justify-between w-full">
         <h3 className="uppercase font-onest font-light text-[22px] leading-[26px] md:text-[32px] md:leading-10 lg:w-5/6 md:w-[75%] w-[90%]">
           Understand the Experience Directly From our students
@@ -81,6 +81,6 @@ export const OurStudents = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
