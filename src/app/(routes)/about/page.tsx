@@ -8,6 +8,7 @@ import { Statistics } from "@/components/about/statistics";
 import { StudentExamples } from "@/components/about/student-examples";
 import { IndustryExperts } from "@/components/about/industry-experts";
 import { WhatMediaSays } from "@/components/about/what-media-says";
+import { StartJourney } from "@/components/home/start-journey";
 
 const About = () => {
   return (
@@ -21,6 +22,7 @@ const About = () => {
       <AcademicBody />
       <IndustryExperts />
       <WhatMediaSays />
+      <StartJourney />
     </div>
   );
 };
