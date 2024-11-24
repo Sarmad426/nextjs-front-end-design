@@ -5,16 +5,16 @@ import { ArrowUpRight } from "lucide-react";
 
 export const StartJourney = () => {
   return (
-    <div className="mx-auto w-[95%]">
-      <div className="flex items-center flex-col lg:flex-row mt-8 w-full xl:col-span-1 xl:justify-center">
-        <div className="flex items-center justify-between">
+    <div className="mx-auto w-[95%] my-8">
+      <div className="flex items-center flex-col lg:grid lg:grid-cols-2 mt-8 w-full xl:col-span-1 xl:justify-center">
+        <div className="col-span-1 flex items-center justify-between">
           <Image
             src={Journey}
             alt="Image"
             className="min-w-full h-[300px] md:w-[720px] md:h-[400px] lg:h-[500px]"
           />
         </div>
-        <div className="lg:flex lg:flex-col lg:justify-between h-full bg-[#193E2C] w-full p-6 md:max-w-[720px] lg:h-[500px]">
+        <div className="col-span-1 lg:flex lg:flex-col lg:justify-between h-full bg-[#193E2C] w-full p-6 md:max-w-[720px] lg:h-[500px]">
           <div className="lg:flex lg:flex-col md:flex">
             <h4 className="my-2 text-primaryColor font-onest font-normal text-lg leading-6 md:text-[32px] md:leading-10 lg:text-2xl">
               Ready to start your journey
