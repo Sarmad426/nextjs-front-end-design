@@ -19,7 +19,7 @@ export const AcademicBody = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-6 md:grid md:grid-cols-2 my-8">
+      <div className="flex flex-col gap-6 lg:grid lg:grid-cols-2 my-8">
         <Image src={AcademicAlliance1} alt="Academic Alliance" />
         <div className="my-3 flex flex-col md:justify-between h-[90%] gap-4">
           <div>
@@ -49,7 +49,7 @@ export const AcademicBody = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col-reverse gap-6 md:grid md:grid-cols-2 my-6 md:my-12">
+      <div className="flex flex-col-reverse gap-6 lg:grid lg:grid-cols-2 my-6 md:my-12">
         <div className="my-3 flex flex-col md:justify-between h-[90%] gap-4">
           <div>
             <h3 className="text-[32px] leading-10 text-primaryColor">

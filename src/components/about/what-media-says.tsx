@@ -7,8 +7,8 @@ export const WhatMediaSays = () => {
   return (
     <section className="w-[95%] mx-auto my-12 md:my-16">
       <div>
-        <div className="flex flex-col items-start justify-center md:flex-row gap-4 md:justify-between">
-          <h3 className="font-light text-[32px] leading-10 md:text-[40px] md:leading-[56px] md:min-w-[30%]">
+        <div className="flex flex-col items-start justify-center lg:flex-row gap-4 lg:justify-between">
+          <h3 className="font-light text-[32px] leading-10 md:text-3xl lg:text-[40px] md:leading-[56px] lg:min-w-[30%]">
             What the Media says
           </h3>
           <div className="h-[1px] w-full bg-[#BCD4C7] self-end mb-[16px]">

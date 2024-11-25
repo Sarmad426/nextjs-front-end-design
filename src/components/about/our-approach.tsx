@@ -8,7 +8,7 @@ export const OurApproach = () => {
       <h2 className="hidden md:flex font-light text-[56px] leading-[64px]">
         Our Approach
       </h2>
-      <div className="flex flex-col md:flex-row lg:grid lg:grid-cols-2 place-items-center mx-2.5 gap-8">
+      <div className="flex flex-col lg:grid lg:grid-cols-2 place-items-center mx-2.5 gap-8">
         <div>
           <div className="md:hidden">
             <h3 className="text-[32px] leading-10 text-primaryColor my-3.5">
@@ -20,7 +20,7 @@ export const OurApproach = () => {
               outcomes.
             </p>
           </div>
-          <div className="hidden md:flex flex-col gap-2.5 justify-center">
+          <div className="hidden md:flex flex-col gap-2.5 justify-center my-6">
             <h5 className="text-2xl text-primaryColor">
               How we support your growth
             </h5>
