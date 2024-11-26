@@ -34,14 +34,14 @@ const Navbar = () => {
             <div className="flex gap-[12px]">
               {routes.map((route) => (
                 <Link
-                  href={`/${route.toLowerCase().replace(" ", "-")}`}
-                  key={route}
+                  href={`/${route.url}`}
+                  key={route.url}
                   className={`text-sm py-2 px-[18px] leading-6 font-normal ${
-                    pathname === `/${route.toLowerCase()}` &&
+                    pathname === `/${route.url.toLowerCase()}` &&
                     "border border-primaryColor"
                   } `}
                 >
-                  {route}
+                  {route.label}
                 </Link>
               ))}
               <select
