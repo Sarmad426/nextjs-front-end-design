@@ -2,6 +2,11 @@ import Image from "next/image";
 import GeorgeTownUniIcon from "@/assets/georgetown-uni.svg";
 
 import ProgramImg1 from "@/assets/program-img-1.webp";
+import ProgramImg2 from "@/assets/program-img-2.webp";
+import ProgramImg3 from "@/assets/program-img-3.webp";
+import ProgramImg4 from "@/assets/program-img-4.webp";
+import ProgramImg5 from "@/assets/program-img-5.webp";
+import { sponsors } from "@/data/data";
 
 export const HowProgramsWork = () => {
   const firstSectionButtons = [
@@ -23,7 +28,7 @@ export const HowProgramsWork = () => {
           </div>
         </div>
         {/* First Section (Startup theory) */}
-        <div className="flex flex-col-reverse md:grid md:grid-cols-2 gap-3 w-full mx-auto">
+        <div className="flex flex-col-reverse md:grid md:grid-cols-2 gap-3 w-full mx-auto my-8">
           <div className="my-3 flex flex-col justify-between h-full md:w-[95%] w-full p-3.5">
             <div>
               <span className="font-onest font-light text-lg leading-6 text-primaryColor my-3">
@@ -76,6 +81,78 @@ export const HowProgramsWork = () => {
             </div>
           </div>
           <Image src={ProgramImg1} alt="" className="md:mt-8 lg:h-[550px]" />
+        </div>
+        {/* Second section (Gain practical experience) */}
+        <div className="flex flex-col-reverse md:grid md:grid-cols-2 gap-3 w-full mx-auto my-8">
+          <Image src={ProgramImg2} alt="" className="md:mt-8 lg:h-[550px]" />
+          <div className="my-3 flex flex-col justify-between h-full md:w-[95%] w-full p-3.5">
+            <div>
+              <span className="font-onest font-light text-lg leading-6 text-primaryColor my-3">
+                October 21st - November 17th{" "}
+              </span>
+              <h3 className="font-onest text-2xl leading-7 md:font-light md:text-[32px] md:leading-8 my-3">
+                Gain practical experience in New York{" "}
+              </h3>
+              <p className="font-light text-base md:hidden my-3">
+                How to think and execute to succeed - mindset, risk management
+                and speed.
+              </p>
+              <p className="font-light text-lg leading-6 hidden md:flex my-3">
+                How to build a solid global business - theory, policy and
+                conflict management.
+              </p>
+              <div className="flex items-center gap-6 my-3">
+                <Image
+                  src={GeorgeTownUniIcon}
+                  alt="Georgetown"
+                  className="h-7 w-[112px]"
+                />
+                <div>
+                  <span className="text-[#E4602F] text-xs leading-[14px] w-[194px]">
+                    Bloomberg MBA Ranking
+                  </span>
+                  <span className="leading-[24px] block">
+                    <span className="font-semibold">#1</span> World&apos;s most
+                    creative & <br className="md:hidden visible" /> innovative
+                    graduates
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div>
+                <span className="font-light text-xs">
+                  HQ visits or mentors with experience in:
+                </span>
+                <div className="flex justify-start lg:justify-end lg:gap-x-10 gap-x-[26px] flex-wrap gap-y-5">
+                  {sponsors.map((sponsor, index) => (
+                    <Image
+                      src={sponsor}
+                      alt={`Sponsor ${index}`}
+                      key={index}
+                      className="h-min"
+                    />
+                  ))}
+                </div>
+              </div>
+              <div className="flex flex-col gap-4">
+                <span className="hidden md:flex">Key skills learned:</span>
+                <span className="md:hidden">Highlights</span>
+                <div className="flex flex-wrap gap-4 justify-start w-full">
+                  {firstSectionButtons.map((label, i) => {
+                    return (
+                      <button
+                        key={i}
+                        className="p-1 bg-transparent text-sm font-extralight border hover:bg-black hover:text-white cursor-default"
+                      >
+                        {label}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
