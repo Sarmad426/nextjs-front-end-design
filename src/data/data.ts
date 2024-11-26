@@ -11,7 +11,10 @@ import Skyscanner from "@/assets/skyscanner.svg";
 import PinterestIcon from "@/assets/pinterest.svg";
 import TalisIcon from "@/assets/talis.svg";
 import YounitedIcon from "@/assets/younited.svg";
-
+import AppleLightIcon from '@/assets/apple-light.svg'
+import MicrosoftLightIcon from '@/assets/microsoft-light.svg'
+import TeslaLightIcon from '@/assets/tesla-light.svg'
+import MetaLightIcon from '@/assets/meta-light.svg'
 
 import GrammarlyLightIcon from "@/assets/grammarly-light.svg";
 import GoogleLightIcon from "@/assets/google-light.svg";
@@ -121,4 +124,22 @@ export const mediaTalks = [
         img: LaStampa,
         desc: "Studiare e lavorare, a Genova e Washington il master congiunto in Startup Creation..."
     },
+]
+
+export const sponsors = [
+    SequoiaIcon,
+    AppleIcon,
+    MicrosoftIcon,
+    MetaIcon,
+    GoogleIcon,
+    TeslaIcon,
+];
+
+export const sponsorsLight = [
+    SequoiaLightIcon,
+    AppleLightIcon,
+    MicrosoftLightIcon,
+    MetaLightIcon,
+    GoogleLightIcon,
+    TeslaLightIcon
 ]
