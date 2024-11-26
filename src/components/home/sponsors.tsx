@@ -2,25 +2,11 @@
 
 import Image from "next/image";
 import React from "react";
-import GoogleIcon from "@/assets/google.svg";
-import MetaIcon from "@/assets/meta.svg";
-import SequoiaIcon from "@/assets/sequoia.svg";
-import MicrosoftIcon from "@/assets/microsoft.svg";
-import AppleIcon from "@/assets/apple.svg";
-import TeslaIcon from "@/assets/tesla.svg";
 import { ArrowRight } from "lucide-react";
 
 import GeorgeTownUniIcon from "@/assets/georgetown-uni.svg";
 import GenovaIcon from "@/assets/genova.svg";
-
-const sponsors = [
-  SequoiaIcon,
-  AppleIcon,
-  MicrosoftIcon,
-  MetaIcon,
-  GoogleIcon,
-  TeslaIcon,
-];
+import { sponsors } from "@/data/data";
 
 export const Sponsors = () => {
   return (
