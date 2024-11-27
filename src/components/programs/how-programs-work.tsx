@@ -83,7 +83,7 @@ export const HowProgramsWork = () => {
           <Image src={ProgramImg1} alt="" className="md:mt-8 lg:h-[550px]" />
         </div>
         {/* Second section (Gain practical experience) */}
-        <div className="flex flex-col-reverse md:grid md:grid-cols-2 gap-3 w-full mx-auto my-8">
+        <div className="flex flex-col md:grid md:grid-cols-2 gap-3 w-full mx-auto my-8">
           <Image src={ProgramImg2} alt="" className="md:mt-8 lg:h-[550px]" />
           <div className="my-3 flex flex-col justify-between h-full md:w-[95%] w-full p-3.5">
             <div>
@@ -119,25 +119,29 @@ export const HowProgramsWork = () => {
                 </div>
               </div>
             </div>
-            <div>
-              <div>
-                <span className="font-light text-xs">
+            <div className="w-full">
+              <div className="my-5">
+                <span className="font-light text-xs block my-3.5">
                   HQ visits or mentors with experience in:
                 </span>
-                <div className="flex justify-start lg:justify-end lg:gap-x-10 gap-x-[26px] flex-wrap gap-y-5">
+                <div className="flex justify-start lg:gap-x-10 gap-x-[26px] flex-wrap gap-y-5 w-full">
                   {sponsors.map((sponsor, index) => (
                     <Image
                       src={sponsor}
                       alt={`Sponsor ${index}`}
                       key={index}
-                      className="h-min"
+                      className="h-[17px] max-w-[65px]"
                     />
                   ))}
                 </div>
               </div>
               <div className="flex flex-col gap-4">
-                <span className="hidden md:flex">Key skills learned:</span>
-                <span className="md:hidden">Highlights</span>
+                <span className="hidden md:flex font-light text-xs my-1.5">
+                  Key skills learned:
+                </span>
+                <span className="md:hidden font-light text-xs block my-1.5">
+                  Highlights
+                </span>
                 <div className="flex flex-wrap gap-4 justify-start w-full">
                   {firstSectionButtons.map((label, i) => {
                     return (
