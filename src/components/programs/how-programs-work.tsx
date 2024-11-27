@@ -180,7 +180,9 @@ export const HowProgramsWork = () => {
               </p>
             </div>
             <div className="flex flex-col gap-4 my-5">
-              <span className="hidden md:flex">Key skills learned:</span>
+              <span className="hidden md:flex font-extralight text-xs">
+                Key skills learned:
+              </span>
               <span className="md:hidden">Highlights</span>
               <div className="flex flex-wrap gap-4 justify-start w-full">
                 {firstSectionButtons.map((label, i) => {
@@ -273,6 +275,56 @@ export const HowProgramsWork = () => {
               </div>
             </div>
           </div>
+        </div>
+        {/* Fifth Section (Graduate in Genoa) */}
+        <div className="flex flex-col-reverse md:grid md:grid-cols-2 gap-3 w-full mx-auto my-8">
+          <div className="my-3 flex flex-col justify-between h-full md:w-[95%] w-full p-3.5">
+            <div>
+              <span className="font-onest font-light text-lg leading-6 text-primaryColor my-3">
+                May 30th
+              </span>
+              <h3 className="font-onest text-2xl leading-7 md:font-light md:text-[32px] md:leading-8 my-3">
+                Pitch and graduate in Genoa
+              </h3>
+              <p className="font-light text-base md:hidden my-3">
+                Have the chance to raise in front of +100 investors while
+                obtaining a Master’s.
+              </p>
+              <p className="font-light text-lg leading-6 hidden md:flex my-3">
+                How to build a solid global business - theory, policy and
+                conflict management.
+              </p>
+            </div>
+            <div className="flex flex-col gap-4 my-5">
+              <div className="flex justify-start lg:gap-x-10 gap-x-[26px] flex-wrap gap-y-5 w-full">
+                {sponsors.map((sponsor, index) => (
+                  <Image
+                    src={sponsor}
+                    alt={`Sponsor ${index}`}
+                    key={index}
+                    className="h-[17px] max-w-[65px]"
+                  />
+                ))}
+              </div>
+              <span className="hidden md:flex font-extralight text-xs">
+                Key skills learned:
+              </span>
+              <span className="md:hidden">Highlights</span>
+              <div className="flex flex-wrap gap-4 justify-start w-full">
+                {firstSectionButtons.map((label, i) => {
+                  return (
+                    <button
+                      key={i}
+                      className="p-1 bg-transparent text-sm font-extralight border hover:bg-black hover:text-white cursor-default"
+                    >
+                      {label}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+          <Image src={ProgramImg5} alt="" className="md:mt-8 lg:h-[550px]" />
         </div>
       </div>
     </section>
