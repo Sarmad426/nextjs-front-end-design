@@ -15,7 +15,7 @@ export const WhatOurStudentsDo = () => {
             <div className="flex flex-col w-full xl:w-[50%] gap-[40px] xl:gap-[56px]">
               <div className="flex flex-col xl:flex-row gap-[40px] xl:gap-[100px]">
                 <div className="flex flex-col gap-[20px] w-full xl:w-[50%] items-center text-center xl:items-start xl:text-left">
-                  <p className="text-[64px] leading-[64px] font-200 font-onest">
+                  <p className="font-extralight text-[64px] leading-[64px] font-onest">
                     75%
                   </p>
                   <p className="text-[16px] leading-[20px] font-300 onest">
@@ -24,7 +24,7 @@ export const WhatOurStudentsDo = () => {
                   </p>
                 </div>
                 <div className="flex flex-col gap-[20px] w-full xl:w-[50%] items-center text-center xl:items-start xl:text-left">
-                  <p className="text-[64px] leading-[64px] font-200 onest">
+                  <p className="font-extralight text-[64px] leading-[64px] font-onest">
                     $320K
                   </p>
                   <p className="text-[16px] leading-[20px] font-300 onest">
@@ -34,7 +34,7 @@ export const WhatOurStudentsDo = () => {
               </div>
               <div className="flex flex-col xl:flex-row gap-[40px] xl:gap-[100px]">
                 <div className="flex flex-col gap-[20px] w-full xl:w-[50%] items-center text-center xl:items-start xl:text-left">
-                  <p className="text-[64px] leading-[64px] font-200 onest">
+                  <p className="font-extralight text-[64px] leading-[64px] font-onest">
                     93%
                   </p>
                   <p className="text-[16px] leading-[20px] font-300 onest">
@@ -43,7 +43,7 @@ export const WhatOurStudentsDo = () => {
                   </p>
                 </div>
                 <div className="flex flex-col gap-[20px] w-full xl:w-[50%] items-center text-center xl:items-start xl:text-left">
-                  <p className="text-[64px] leading-[64px] font-200 onest">
+                  <p className="font-extralight text-[64px] leading-[64px] font-onest">
                     $84,030
                   </p>
                   <p className="text-[16px] leading-[20px] font-300 onest">
