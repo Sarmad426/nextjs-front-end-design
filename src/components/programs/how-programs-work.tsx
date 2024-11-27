@@ -158,6 +158,44 @@ export const HowProgramsWork = () => {
             </div>
           </div>
         </div>
+        {/* Third Section (Network with the best) */}
+        <div className="flex flex-col-reverse md:grid md:grid-cols-2 gap-3 w-full mx-auto my-8">
+          <div className="my-3 flex flex-col justify-between h-full md:w-[95%] w-full p-3.5">
+            <div>
+              <span className="font-onest font-light text-lg leading-6 text-primaryColor my-3">
+                13th November - 13th December{" "}
+              </span>
+              <h3 className="font-onest text-2xl leading-7 md:font-light md:text-[32px] md:leading-8 my-3">
+                Network with the best in San Francisco
+              </h3>
+              <p className="font-light text-base md:hidden my-3">
+                Connect with industry leaders and influencers in Silicon
+                Valley&apos;s vibrant tech scene.
+              </p>
+              <p className="font-light text-lg leading-6 hidden md:flex my-3">
+                How to build a solid global business - theory, policy and
+                conflict management.
+              </p>
+            </div>
+            <div className="flex flex-col gap-4 my-5">
+              <span className="hidden md:flex">Key skills learned:</span>
+              <span className="md:hidden">Highlights</span>
+              <div className="flex flex-wrap gap-4 justify-start w-full">
+                {firstSectionButtons.map((label, i) => {
+                  return (
+                    <button
+                      key={i}
+                      className="p-1 bg-transparent text-sm font-extralight border hover:bg-black hover:text-white cursor-default"
+                    >
+                      {label}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+          <Image src={ProgramImg3} alt="" className="md:mt-8 lg:h-[550px]" />
+        </div>
       </div>
     </section>
   );
