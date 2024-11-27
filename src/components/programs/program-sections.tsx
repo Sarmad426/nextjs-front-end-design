@@ -23,7 +23,7 @@ export const ProgramSections = () => {
     <>
       <div className="w-full mx-2">
         {/* First Section (Startup theory) */}
-        <div className="flex flex-col-reverse md:grid md:grid-cols-2 gap-3 w-full mx-auto my-8">
+        <div className="flex flex-col-reverse lg:grid lg:grid-cols-2 gap-3 w-full mx-auto my-8">
           <div className="my-3 flex flex-col justify-between h-full md:w-[95%] w-full p-3.5">
             <div>
               <span className="font-onest font-light text-lg leading-6 text-primaryColor my-3">
@@ -78,7 +78,7 @@ export const ProgramSections = () => {
           <Image src={ProgramImg1} alt="" className="md:mt-8 lg:h-[550px]" />
         </div>
         {/* Second section (Gain practical experience) */}
-        <div className="flex flex-col md:grid md:grid-cols-2 gap-3 w-full mx-auto my-8">
+        <div className="flex flex-col lg:grid lg:grid-cols-2 gap-3 w-full mx-auto my-8">
           <Image src={ProgramImg2} alt="" className="md:mt-8 lg:h-[550px]" />
           <div className="my-3 flex flex-col justify-between h-full md:w-[95%] w-full p-3.5">
             <div>
@@ -154,7 +154,7 @@ export const ProgramSections = () => {
           </div>
         </div>
         {/* Third Section (Network with the best) */}
-        <div className="flex flex-col-reverse md:grid md:grid-cols-2 gap-3 w-full mx-auto my-8">
+        <div className="flex flex-col-reverse lg:grid lg:grid-cols-2 gap-3 w-full mx-auto my-8">
           <div className="my-3 flex flex-col justify-between h-full md:w-[95%] w-full p-3.5">
             <div>
               <span className="font-onest font-light text-lg leading-6 text-primaryColor my-3">
@@ -194,7 +194,7 @@ export const ProgramSections = () => {
           <Image src={ProgramImg3} alt="" className="md:mt-8 lg:h-[550px]" />
         </div>
         {/* Fourth section (Build and grow startup) */}
-        <div className="flex flex-col md:grid md:grid-cols-2 gap-3 w-full mx-auto my-8">
+        <div className="flex flex-col lg:grid lg:grid-cols-2 gap-3 w-full mx-auto my-8">
           <Image src={ProgramImg4} alt="" className="md:mt-8 lg:h-[550px]" />
           <div className="my-3 flex flex-col justify-between h-full md:w-[95%] w-full p-3.5">
             <div>
@@ -270,7 +270,7 @@ export const ProgramSections = () => {
           </div>
         </div>
         {/* Fifth Section (Graduate in Genoa) */}
-        <div className="flex flex-col-reverse md:grid md:grid-cols-2 gap-3 w-full mx-auto my-8">
+        <div className="flex flex-col-reverse lg:grid lg:grid-cols-2 gap-3 w-full mx-auto my-8">
           <div className="my-3 flex flex-col justify-between h-full md:w-[95%] w-full p-3.5">
             <div>
               <span className="font-onest font-light text-lg leading-6 text-primaryColor my-3">
