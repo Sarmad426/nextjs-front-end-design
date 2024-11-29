@@ -78,33 +78,31 @@ export const WhatOurStudentsDo = () => {
               How we help students grow
             </p>
           </div>
-          <div className="w-full xl:w-[85%] hidden xl:flex">
-            <div>
-              <div className="flex flex-col px-[24px] pt-[24px] mr-[20px] h-[330px] border-t-[1px] border-[#E5EBDD] hover:border-[#43AA13] transition">
-                <h2 className="onest text-[24px] leading-[32px] font-[300]">
-                  Three mentor workshops per week
-                </h2>
-                <p className="text-[16px] leading-[24px] font-300 onest mt-auto">
-                  Throughout the week, our mentors lead 1.5-hour workshops and
-                  conduct individual 1-hour sessions with students, offering
-                  personalized guidance. They remain accessible via email or
-                  calls for ongoing support beyond the program.
-                </p>
-              </div>
+          <div className="w-[95%] xl:w-[85%] hidden xl:flex">
+            <div className="flex flex-col px-[24px] pt-[24px] mr-[20px] h-[330px] border-t-[1px] border-[#E5EBDD] hover:border-[#43AA13] transition">
+              <h2 className="onest text-[24px] leading-[32px] font-[300]">
+                Three mentor workshops per week
+              </h2>
+              <p className="text-[16px] leading-[24px] font-300 onest mt-auto">
+                Throughout the week, our mentors lead 1.5-hour workshops and
+                conduct individual 1-hour sessions with students, offering
+                personalized guidance. They remain accessible via email or calls
+                for ongoing support beyond the program.
+              </p>
             </div>
-            <div>
-              <div className="flex flex-col px-[24px] pt-[24px] mr-[20px] h-[330px] border-t-[1px] border-[#E5EBDD] hover:border-[#43AA13] transition">
-                <h2 className="onest text-[24px] leading-[32px] font-[300]">
-                  Weekly one to one with a personal mentor
-                </h2>
-                <p className="text-[16px] leading-[24px] font-300 onest mt-auto">
-                  Our students receive personalized guidance from dedicated
-                  mentors, ensuring steady progress throughout the program. Even
-                  after completing the Master&apos;s, 85% of mentors continue to
-                  support student growth.
-                </p>
-              </div>
+
+            <div className="flex flex-col px-[24px] pt-[24px] mr-[20px] h-[330px] border-t-[1px] border-[#E5EBDD] hover:border-[#43AA13] transition">
+              <h2 className="onest text-[24px] leading-[32px] font-[300]">
+                Weekly one to one with a personal mentor
+              </h2>
+              <p className="text-[16px] leading-[24px] font-300 onest mt-auto">
+                Our students receive personalized guidance from dedicated
+                mentors, ensuring steady progress throughout the program. Even
+                after completing the Master&apos;s, 85% of mentors continue to
+                support student growth.
+              </p>
             </div>
+
             <div>
               <div className="flex flex-col px-[24px] pt-[24px] mr-[20px] h-[330px] border-t-[1px] border-[#E5EBDD] hover:border-[#43AA13] transition">
                 <h2 className="onest text-[24px] leading-[32px] font-[300]">
