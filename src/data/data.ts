@@ -143,3 +143,35 @@ export const sponsorsLight = [
     GoogleLightIcon,
     TeslaLightIcon
 ]
+
+
+export const faqData: { question: string, answer: string }[] = [
+    {
+        question: "Do I need to have a startup idea?",
+        answer: "No, most of our students join without an idea. In the first two weeks of the program the mentors explore real problems that can help you find the idea you love. For the program you don't necessarily have to participate with your own project but you can also join a friend's project."
+    },
+    {
+        question: "What are the admission requirements?",
+        answer: "Bachelor's Degree; English proficiency - IELTS 7 Academic or equivalent; Minimum 1 month of internship experience."
+    },
+    {
+        question: "What degree is obtained upon the completion of the program?",
+        answer: "You will obtain a Master’s of 60 ECTs from the University of Genoa and a certificate of modules completion from Georgetown University."
+    },
+    {
+        question: "How can I apply?",
+        answer: "To apply, start by filling out the free application form. Our committee of mentors will review your profile. If you pass, we'll invite you to a call to delve deeper into your aspirations and see if you are a good fit for the program. At the end of each calendar month, we send the admission results to applicants' email inboxes."
+    },
+    {
+        question: "What is the duration of the program?",
+        answer: "The program lasts 8 months, full-time, on campus."
+    },
+    {
+        question: "What is the tuition fees for the program?",
+        answer: "The tuition for academics is €23,000."
+    },
+    {
+        question: "Does GenoaES offer scholarships?",
+        answer: "Yes, scholarships are available. Contact to the admissions team via admission@genoaes.com for more information."
+    }
+]
