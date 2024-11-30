@@ -28,7 +28,7 @@ export const HowProgramsWork = () => {
             </h5>
           </div>
           <div className="flex items-center justify-end">
-            <button className="text-center primary-btn">
+            <button className="text-center primary-btn p-2">
               <span className="text-base uppercase tracking-wide">
                 Schedule a call
               </span>
@@ -50,7 +50,7 @@ export const HowProgramsWork = () => {
             </h5>
           </div>
           <div className="flex items-center justify-end">
-            <button className="text-center primary-btn">
+            <button className="text-center primary-btn p-2">
               <span className="text-base uppercase tracking-wide md:hidden">
                 Download Brochure{" "}
               </span>
