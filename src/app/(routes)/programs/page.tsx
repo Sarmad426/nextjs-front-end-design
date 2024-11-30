@@ -7,6 +7,7 @@ import { ProgramsHero } from "@/components/programs/programs-hero";
 import { StudentGuides } from "@/components/programs/student-guides";
 import { GetSurroundedByTalentedPeople } from "@/components/programs/surrounded-by-talented-people";
 import { WhatOurStudentsDo } from "@/components/programs/what-our-students-do";
+import { FAQ } from "@/components/programs/faq";
 
 const Programs = () => {
   return (
@@ -18,6 +19,7 @@ const Programs = () => {
       <StudentGuides />
       <GetSurroundedByTalentedPeople />
       <LifeChanging />
+      <FAQ />
     </div>
   );
 };
