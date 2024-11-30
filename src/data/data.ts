@@ -175,3 +175,32 @@ export const faqData: { question: string, answer: string }[] = [
         answer: "Yes, scholarships are available. Contact to the admissions team via admission@genoaes.com for more information."
     }
 ]
+
+
+export const applicationProcessCards1 = [
+    {
+        title: "Complete your application",
+        desc: "Start by filling out the free application form here.Our committee of mentors will review your profile"
+    },
+    {
+        title: "Initial call invitation",
+        desc: "If you pass, we'll invite you to an initial call to discuss your aspirations and see if you are a good fit for us."
+    },
+    {
+        title: "Second call invitation",
+        desc: "Successful candidates will be invited to a second call to discuss their background and skills in more detail."
+    },
+]
+
+
+export const applicationProcessCards2 = [
+    {
+        title: "Monthly admission results",
+        desc: "At the end of each calendar month, we send the admission results to applicants' email inboxes."
+    },
+    {
+        title: "Successfully enroll",
+        desc: "Upon admission, students successfully enroll in the program within 10 days by paying a €2282 deposit."
+    },
+
+]
