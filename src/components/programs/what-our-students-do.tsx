@@ -77,7 +77,7 @@ export const WhatOurStudentsDo = () => {
             <p className="text-[24px] md:text-[32px] text-[#43AA13] leading-[32px] font-300 onest">
               How we help students grow
             </p>
-            <div className="h-[1px] w-full relative bg-[#BCD4C7] my-2">
+            <div className="h-[1px] w-full relative bg-[#BCD4C7] my-2 md:hidden">
               <div className="absolute top-0 h-[1px] left-0 bg-[#193E2C] z-10 w-[200px]"></div>
             </div>
           </div>
