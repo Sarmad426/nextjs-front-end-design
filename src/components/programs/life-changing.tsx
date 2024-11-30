@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import LinkedInIcon from "@/assets/linkedin.svg";
 import Chalermchon from "@/assets/chalermchon.webp";
+import LeaDelic from "@/assets/lea-delic.webp";
 
 export const LifeChanging = () => {
   return (
@@ -64,7 +65,7 @@ export const LifeChanging = () => {
                 />
                 <div>
                   <span className="font-medium text-base leading-5 block my-2 md:text-xl md:leading-7">
-                    Chalermchon Puapolthep
+                    Lea Delic
                   </span>
                   <span className="font-light text-sm block mt-1.5">
                     Student founder 2023
@@ -72,7 +73,7 @@ export const LifeChanging = () => {
                 </div>
               </div>
             </div>
-            <Image src={Chalermchon} alt="Chalermchon" />
+            <Image src={LeaDelic} alt="Chalermchon" />
           </div>
         </div>
       </div>
