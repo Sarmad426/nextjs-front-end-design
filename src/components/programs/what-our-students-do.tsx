@@ -72,14 +72,17 @@ export const WhatOurStudentsDo = () => {
           </div>
         </div>
 
-        <div className="px-[16px] md:px-[40px] w-full mt-[56px] xl:mt-[120px] flex flex-col xl:flex-row gap-[24px] md:gap-[60px] items-start">
-          <div className="w-full xl:w-[20%]">
+        <div className="md:px-[40px] w-full mt-[56px] xl:mt-[120px] flex flex-col xl:flex-row gap-[24px] md:gap-[60px] items-start">
+          <div className="w-full xl:w-[20%] px-4">
             <p className="text-[24px] md:text-[32px] text-[#43AA13] leading-[32px] font-300 onest">
               How we help students grow
             </p>
+            <div className="h-[1px] w-full relative bg-[#BCD4C7] my-2">
+              <div className="absolute top-0 h-[1px] left-0 bg-[#193E2C] z-10 w-[200px]"></div>
+            </div>
           </div>
-          <div className="w-[95%] xl:w-[85%] hidden xl:flex">
-            <div className="flex flex-col px-[24px] pt-[24px] mr-[20px] h-[330px] border-t-[1px] border-[#E5EBDD] hover:border-[#43AA13] transition">
+          <div className="xl:w-[85%] hidden md:flex">
+            <div className="flex flex-col px-6 pt-[24px] mr-[20px] h-[330px] border-t-[1px] border-[#E5EBDD] hover:border-[#43AA13] transition">
               <h2 className="onest text-[24px] leading-[32px] font-[300]">
                 Three mentor workshops per week
               </h2>
@@ -90,8 +93,7 @@ export const WhatOurStudentsDo = () => {
                 for ongoing support beyond the program.
               </p>
             </div>
-
-            <div className="flex flex-col px-[24px] pt-[24px] mr-[20px] h-[330px] border-t-[1px] border-[#E5EBDD] hover:border-[#43AA13] transition">
+            <div className="flex flex-col px-6 pt-[24px] mr-[20px] h-[330px] border-t-[1px] border-[#E5EBDD] hover:border-[#43AA13] transition">
               <h2 className="onest text-[24px] leading-[32px] font-[300]">
                 Weekly one to one with a personal mentor
               </h2>
@@ -102,99 +104,42 @@ export const WhatOurStudentsDo = () => {
                 support student growth.
               </p>
             </div>
-
-            <div>
-              <div className="flex flex-col px-[24px] pt-[24px] mr-[20px] h-[330px] border-t-[1px] border-[#E5EBDD] hover:border-[#43AA13] transition">
-                <h2 className="onest text-[24px] leading-[32px] font-[300]">
-                  60 ECTS European Master’s{" "}
-                </h2>
-                <p className="text-[16px] leading-[24px] font-300 onest mt-auto">
-                  Students receive a certificate from Georgetown University
-                  along with an official European Master&apos;s Degree of 60
-                  ECTS from the University of Genoa, so they can smoothly pursue
-                  further studies within the European system.
-                </p>
-              </div>
+            <div className="flex flex-col px-[24px] pt-[24px] mr-[20px] h-[330px] border-t-[1px] border-[#E5EBDD] hover:border-[#43AA13] transition">
+              <h2 className="onest text-[24px] leading-[32px] font-[300]">
+                60 ECTS European Master’s{" "}
+              </h2>
+              <p className="text-[16px] leading-[24px] font-300 onest mt-auto">
+                Students receive a certificate from Georgetown University along
+                with an official European Master&apos;s Degree of 60 ECTS from
+                the University of Genoa, so they can smoothly pursue further
+                studies within the European system.
+              </p>
             </div>
           </div>
-          <div
-            className="slick-slider block xl:!hidden w-full slick-initialized"
-            dir="ltr"
-          >
-            <div className="slick-list">
-              <div
-                className="slick-track opacity-100 w-[1923px]"
-                style={{ transform: "translate3d(0px, 0px, 0px)" }}
-              >
-                <div
-                  data-index="0"
-                  className="slick-slide slick-active slick-current outline-none w-[641px]"
-                  tabIndex={-1}
-                  aria-hidden="false"
-                >
-                  <div>
-                    <div className="w-full inline-block" tabIndex={-1}>
-                      <div className="flex flex-col px-[8px] xl:px-[24px] pt-[24px] mr-[20px] h-[280px] border-t-[1px] border-[#E5EBDD] hover:border-[#43AA13] transition">
-                        <h2 className="onest text-[24px] md:text-[32px] leading-[32px] md:leading-[40px] font-[300]">
-                          Three mentor workshops per week
-                        </h2>
-                        <p className="text-[14px] leading-[20px] font-300 onest mt-auto">
-                          Throughout the week, our mentors lead 1.5-hour
-                          workshops and conduct individual 1-hour sessions with
-                          students, offering personalized guidance. They remain
-                          accessible via email or calls for ongoing support
-                          beyond the program.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  data-index="1"
-                  className="slick-slide slick-active outline-none w-[641px]"
-                  tabIndex={-1}
-                  aria-hidden="false"
-                >
-                  <div>
-                    <div className="w-full inline-block" tabIndex={-1}>
-                      <div className="flex flex-col px-[8px] xl:px-[24px] pt-[24px] mr-[20px] h-[280px] border-t-[1px] border-[#E5EBDD] hover:border-[#43AA13] transition">
-                        <h2 className="onest text-[24px] md:text-[32px] leading-[32px] md:leading-[40px] font-[300]">
-                          Weekly one to one with a personal mentor
-                        </h2>
-                        <p className="text-[14px] leading-[20px] font-300 onest mt-auto">
-                          Our students receive personalized guidance from
-                          dedicated mentors, ensuring steady progress throughout
-                          the program. Even after completing the Master&apos;s,
-                          85% of mentors continue to support student growth.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  data-index="2"
-                  className="slick-slide outline-none w-[641px]"
-                  tabIndex={-1}
-                  aria-hidden="true"
-                >
-                  <div>
-                    <div className="w-full inline-block" tabIndex={-1}>
-                      <div className="flex flex-col px-[8px] xl:px-[24px] pt-[24px] mr-[20px] h-[280px] border-t-[1px] border-[#E5EBDD] hover:border-[#43AA13] transition">
-                        <h2 className="onest text-[24px] md:text-[32px] leading-[32px] md:leading-[40px] font-[300]">
-                          60 ECTS European Master’s{" "}
-                        </h2>
-                        <p className="text-[14px] leading-[20px] font-300 onest mt-auto">
-                          Students receive a certificate from Georgetown
-                          University along with an official European Masters
-                          Degree of 60 ECTS from the University of Genoa, so
-                          they can smoothly pursue further studies within the
-                          European system.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+          <div className="flex items-center md:hidden w-full overflow-x-scroll scrollbar-hide">
+            <div className="p-3 min-w-[85%]">
+              <div className="h-[1px] bg-gray-300 w-full" />
+              <h5 className="font-onest font-light text-2xl my-3.5">
+                Three mentor workshops per week
+              </h5>
+              <p className="m-1.5 font-onest font-light text-sm">
+                Throughout the week, our mentors lead workshops and conduct
+                individual sessions with students, offering personalized
+                guidance. They remain accessible via email or calls for ongoing
+                support beyond the program.
+              </p>
+            </div>
+            <div className="p-3 min-w-[85%]">
+              <div className="h-[1px] bg-gray-300 w-full" />
+              <h5 className="font-onest font-light text-2xl my-3.5">
+                Three mentor workshops per week
+              </h5>
+              <p className="m-1.5 font-onest font-light text-sm">
+                Throughout the week, our mentors lead workshops and conduct
+                individual sessions with students, offering personalized
+                guidance. They remain accessible via email or calls for ongoing
+                support beyond the program.
+              </p>
             </div>
           </div>
         </div>
