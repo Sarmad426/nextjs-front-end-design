@@ -26,7 +26,7 @@ export const GetSurroundedByTalentedPeople: React.FC = () => {
             1 entrepreneurial experience before joining
           </span>
           <div className="w-full md:flex items-center justify-end hidden">
-            <button className="flex items-center primary-btn p-2 w-[360px] h-[52px] text-base leading-6">
+            <button className="flex items-center justify-center primary-btn p-2 w-[360px] h-[52px] text-base leading-6">
               <span>Get to know our cohort better</span>
               <ArrowRight className="w-8 ml-2 inline" />
             </button>
