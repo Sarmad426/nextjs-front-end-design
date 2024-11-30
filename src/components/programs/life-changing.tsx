@@ -3,6 +3,7 @@ import Image from "next/image";
 import LinkedInIcon from "@/assets/linkedin.svg";
 import Chalermchon from "@/assets/chalermchon.webp";
 import LeaDelic from "@/assets/lea-delic.webp";
+import GabrielRossi from "@/assets/gabriele-rossi.webp";
 
 export const LifeChanging = () => {
   return (
@@ -24,7 +25,7 @@ export const LifeChanging = () => {
         </h2>
         {/* Student cards */}
         <div className="flex flex-col md:flex-row gap-8 w-full overflow-x-scroll scrollbar-hide">
-          {/* Card */}
+          {/* Card 1 */}
           <div className="flex flex-col lg:flex-row overflow-y-hidden gap-4 p-3 md:py-3 md:px-5 min-h-full lg:min-w-[1015px] bg-[#E5EBDD] text-[#193E2C] lg:h-[450px] md:w-3/4">
             <div className="h-full p-2 flex flex-col justify-between gap-2">
               <p className="font-light text-xl leading-6 md:text-2xl">
@@ -50,6 +51,7 @@ export const LifeChanging = () => {
             </div>
             <Image src={Chalermchon} alt="Chalermchon" />
           </div>
+          {/* Card 2 */}
           <div className="flex flex-col lg:flex-row overflow-y-hidden gap-4 p-3 md:py-3 md:px-5 min-h-full lg:min-w-[1015px] bg-[#BCD4C7] text-[#193E2C] lg:h-[450px] md:w-3/4">
             <div className="h-full p-2 flex flex-col justify-between gap-2">
               <p className="font-light text-xl leading-6 md:text-2xl">
@@ -74,6 +76,32 @@ export const LifeChanging = () => {
               </div>
             </div>
             <Image src={LeaDelic} alt="Chalermchon" />
+          </div>
+          {/* Card 3 */}
+          <div className="flex flex-col lg:flex-row overflow-y-hidden gap-4 p-3 md:py-3 md:px-5 min-h-full lg:min-w-[1015px] bg-[#BCD4C7] text-[#193E2C] lg:h-[450px] md:w-3/4">
+            <div className="h-full p-2 flex flex-col justify-between gap-2">
+              <p className="font-light text-xl leading-6 md:text-2xl">
+                “The other students are amazing people, and mentors are
+                incredible. They are at a global level, but they take the time
+                to be with you and are ready to support you 24/7.
+              </p>
+              <div className="flex flex-col md:flex-row-reverse gap-5 justify-between mt-16 md:mt-0">
+                <Image
+                  src={LinkedInIcon}
+                  alt="Linkedin"
+                  className="cursor-pointer"
+                />
+                <div>
+                  <span className="font-medium text-base leading-5 block my-2 md:text-xl md:leading-7">
+                    Gabriel Rossi
+                  </span>
+                  <span className="font-light text-sm block mt-1.5">
+                    Student founder 2023
+                  </span>
+                </div>
+              </div>
+            </div>
+            <Image src={GabrielRossi} alt="Chalermchon" />
           </div>
         </div>
       </div>
