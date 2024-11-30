@@ -27,7 +27,7 @@ export const LifeAtGenoa = () => {
             Tesla&apos;s factory.
           </p>
           <div className="lg:mt-48 flex items-center md:justify-end justify-end mt-10 mx-6">
-            <button className="uppercase w-[296px] h-[48px] md:w-[420px] md:h-[52px] primary-btn flex items-center justify-center gap-2">
+            <button className="w-[296px] h-[48px] md:w-[420px] md:h-[52px] primary-btn flex items-center justify-center gap-2">
               <span className="flex md:hidden">Discover more</span>
               <span className="hidden md:flex">
                 Discover how is life during the program
