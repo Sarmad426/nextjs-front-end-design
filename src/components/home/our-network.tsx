@@ -44,7 +44,7 @@ export const OurNetwork = () => {
             World experts dedicate their time to help our students grow.
           </h5>
           <div className="flex items-center md:justify-end justify-end xl:mt-10 lg:mt-6 mx-6">
-            <button className="w-[237px] h-[48px] md:w-[269px] md:h-[52px] primary-btn flex items-center justify-center gap-2">
+            <button className="w-[237px] h-[48px] md:w-[269px] md:h-[52px] btn bg-transparent hover:bg-white hover:text-black border-2 border-white flex items-center justify-center gap-2">
               Discover the network
               <ArrowRight className="w-4" />
             </button>
