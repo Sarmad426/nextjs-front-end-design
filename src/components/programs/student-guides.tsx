@@ -11,7 +11,7 @@ import GenoaUniIcon from "@/assets/genova.svg";
 
 export const StudentGuides = () => {
   return (
-    <div className="w-[95%] mx-auto my-12 mt-8 md:mt-10">
+    <section className="w-[95%] mx-auto my-12 mt-8 md:mt-10">
       <div>
         {/* Heading */}
         <div className="flex flex-col items-start gap-[8px] w-full my-8">
@@ -191,6 +191,6 @@ export const StudentGuides = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

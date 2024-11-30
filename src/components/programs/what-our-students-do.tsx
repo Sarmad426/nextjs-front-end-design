@@ -1,6 +1,6 @@
 export const WhatOurStudentsDo = () => {
   return (
-    <div className="w-[95%] mx-auto my-12">
+    <section className="w-[95%] mx-auto my-12">
       <div>
         <div className="px-[16px] md:px-[40px] w-full mt-[40px] xl:mt-[120px]">
           <div className="flex flex-col items-start gap-[8px] ">
@@ -156,6 +156,6 @@ export const WhatOurStudentsDo = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

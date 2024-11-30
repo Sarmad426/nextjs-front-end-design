@@ -21,7 +21,7 @@ export const ProgramSections = () => {
   ];
   return (
     <>
-      <div className="w-full mx-2">
+      <section className="w-full mx-2">
         {/* First Section (Startup theory) */}
         <div className="flex flex-col-reverse lg:grid lg:grid-cols-2 gap-3 w-full mx-auto my-8">
           <div className="my-3 flex flex-col justify-between h-full md:w-[95%] w-full p-3.5">
@@ -319,7 +319,7 @@ export const ProgramSections = () => {
           </div>
           <Image src={ProgramImg5} alt="" className="md:mt-8 lg:h-[550px]" />
         </div>
-      </div>
+      </section>
     </>
   );
 };
