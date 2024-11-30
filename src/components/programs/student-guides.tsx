@@ -37,7 +37,7 @@ export const StudentGuides = () => {
               </p>
             </div>
             <div className="flex items-end justify-end w-full mt-5">
-              <button className="btn bg-transparent hover:bg-black hover:text-white border-2 border-black p-5 w-[328px] h-[52px] md:w-[258px]">
+              <button className="primary-btn w-[328px] h-[52px] md:w-[258px]">
                 <span className="text-base leading-5 md:leading-6">
                   Explore our Network
                 </span>
@@ -79,7 +79,7 @@ export const StudentGuides = () => {
                 leaders,gaining global perspectives and essential skills.
               </p>
               <div className="mt-16 flex items-center justify-end w-full">
-                <button className="w-[174px] h-[48px] btn p-4 bg-transparent hover:bg-black hover:text-white border-2 border-black">
+                <button className="w-[174px] h-[48px] primary-btn">
                   <span>Learn more</span>
                   <ArrowRight className="w-8 inline ml-2" />
                 </button>
@@ -181,7 +181,7 @@ export const StudentGuides = () => {
                   </p>
                 </div>
                 <div className="w-full flex item-center justify-end mt-5">
-                  <button className="btn uppercase bg-transparent border-2 border-black p-4 w-[368px] h-[52px]">
+                  <button className="primary-btn p-2 w-[368px] h-[52px]">
                     <span>Learn more about universities</span>
                     <ArrowRight className="w-8 inline ml-2" />
                   </button>

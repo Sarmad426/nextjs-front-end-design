@@ -111,7 +111,7 @@ export const Sponsors = () => {
           </div>
 
           <div className="flex items-center md:justify-end justify-center mt-10">
-            <button className="md:w-[250px] md:h-[52px] w-[330px] h-[48px] btn bg-transparent border-2 border-black hover:bg-black hover:text-white flex items-center justify-center gap-2">
+            <button className="md:w-[250px] md:h-[52px] w-[330px] h-[48px] primary-btn flex items-center justify-center gap-2">
               Read more about us
               <ArrowRight className="w-4" />
             </button>
