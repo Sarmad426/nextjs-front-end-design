@@ -5,9 +5,12 @@ import Chalermchon from "@/assets/chalermchon.webp";
 import LeaDelic from "@/assets/lea-delic.webp";
 import GabrielRossi from "@/assets/gabriele-rossi.webp";
 
+import ProgramImg from "@/assets/program-img-9.webp";
+import { ArrowRight } from "lucide-react";
+
 export const LifeChanging = () => {
   return (
-    <div className="w-[95%] mx-auto my-28 mt-12 md:mt-20">
+    <section className="w-[95%] mx-auto my-28 mt-12 md:mt-20">
       <div className="flex flex-col items-start gap-[8px] w-full my-8">
         <h2 className="leading-[24px] md:leading-[32px] relative z-20 text-[#43AA13] text-[20px] md:text-[24px] lg:min-w-max">
           <span className="hidden md:flex">Life-changing for the students</span>
@@ -105,6 +108,31 @@ export const LifeChanging = () => {
           </div>
         </div>
       </div>
-    </div>
+      <div className="my-8 xl:flex xl:items-center xl:justify-between xl:gap-5">
+        <Image
+          src={ProgramImg}
+          alt="Life changing for the students"
+          className="xl:w-[785px] lg:w-4/6 w-full"
+        />
+        <div className="p-2 w-full">
+          <h4 className="font-onest font-light text-2xl leading-6 my-3 md:text-[40px] md:leading-[48px]">
+            Explore life at Genoa ES
+          </h4>
+          <p className="font-light text-sm my-3.5 md:text-lg md:leading-6">
+            You&apos;ll live in vibrant cities like New York or Silicon Valley,
+            explore places like the Google campus, and immerse yourself in a
+            community of top experts and talent daily. After graduating,
+            you&apos;ll have not only a strong network but also unforgettable
+            memories.
+          </p>
+          <div className="w-full flex items-center justify-center lg:justify-end xl:mt-10 mt-5">
+            <button className="primary-btn p-3 flex items-center justify-center">
+              <span>See how life is at Genoaes</span>
+              <ArrowRight className="ml-2 w-8" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 };
