@@ -9,6 +9,7 @@ import { GetSurroundedByTalentedPeople } from "@/components/programs/surrounded-
 import { WhatOurStudentsDo } from "@/components/programs/what-our-students-do";
 import { FAQ } from "@/components/programs/faq";
 import { ApplicationProcess } from "@/components/programs/application-process";
+import { CareerOpportunities } from "@/components/programs/career-opportunities";
 
 const Programs = () => {
   return (
@@ -22,6 +23,7 @@ const Programs = () => {
       <LifeChanging />
       <FAQ />
       <ApplicationProcess />
+      <CareerOpportunities />
     </div>
   );
 };
