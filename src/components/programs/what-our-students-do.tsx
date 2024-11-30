@@ -141,6 +141,18 @@ export const WhatOurStudentsDo = () => {
                 support beyond the program.
               </p>
             </div>
+            <div className="p-3 min-w-[85%]">
+              <div className="h-[1px] bg-gray-300 w-full" />
+              <h5 className="font-onest font-light text-2xl my-3.5">
+                Three mentor workshops per week
+              </h5>
+              <p className="m-1.5 font-onest font-light text-sm">
+                Throughout the week, our mentors lead workshops and conduct
+                individual sessions with students, offering personalized
+                guidance. They remain accessible via email or calls for ongoing
+                support beyond the program.
+              </p>
+            </div>
           </div>
         </div>
       </div>
