@@ -16,27 +16,24 @@ export const Collapsible: React.FC<{ question: string; InnerText: string }> = ({
 
   return (
     <div
-      className="flex items-center justify-between w-full cursor-pointer"
+      className="w-full cursor-pointer select-none"
       onClick={toggleCollapsible}
     >
-      <span className="font-light text-lg leading-6 md:text-2xl">
-        {question}
-      </span>
-      <Plus
-        className={`w-8 ${isOpen && "hidden"}`}
-        onClick={toggleCollapsible}
-      />
-      <Minus className={`w-8 ${!isOpen && "hidden"}`} />
+      <div className="flex items-center justify-between min-w-full">
+        <span className="font-light text-lg leading-6 md:text-2xl">
+          {question}
+        </span>
+        <Plus className={`w-8 ${isOpen && "hidden"}`} />
+        <Minus className={`w-8 ${!isOpen && "hidden"}`} />
+      </div>
       <div
         ref={contentRef}
         style={{
-          height: isOpen ? 50 : 60,
+          height: isOpen ? contentRef.current?.scrollHeight : 0,
         }}
-        className={`overflow-hidden transition-all duration-500 ${
-          isOpen ? "block" : "hidden"
-        }`}
+        className={`overflow-hidden transition-all duration-500`}
       >
-        <div className="p-12">{InnerText}</div>
+        <div className="p-3.5">{InnerText}</div>
       </div>
     </div>
   );

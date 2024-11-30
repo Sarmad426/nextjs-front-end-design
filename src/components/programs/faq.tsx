@@ -14,8 +14,8 @@ export const FAQ = () => {
           <div className="absolute top-0 h-[1px] left-0 bg-[#193E2C] z-10 w-[200px]"></div>
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row gap-y-8 gap-x-48 w-full items-center justify-between">
-        <div className="lg:w-[45%]">
+      <div className="flex flex-col items-start justify-start lg:flex-row gap-y-8 gap-x-40 w-full">
+        <div className="lg:w-1/2">
           <h5 className="text-lg leading-[22px] my-8 lg:text-2xl">
             Have questions about GenoaES? Check out our FAQ section for answers
             to commonly asked questions.
@@ -31,13 +31,11 @@ export const FAQ = () => {
         <div className="w-full p-2 flex flex-col gap-y-10">
           {faqData.map((faq, index) => {
             return (
-              // <div key={index}>
               <Collapsible
                 key={index}
                 question={faq.question}
                 InnerText={faq.answer}
               />
-              // </div>
             );
           })}
         </div>
