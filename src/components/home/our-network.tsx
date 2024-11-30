@@ -7,7 +7,7 @@ import { ArrowRight } from "lucide-react";
 
 export const OurNetwork = () => {
   return (
-    <section className="md:w-[95%] w-full xl:mx-auto">
+    <section className="md:w-[95%] w-full xl:mx-auto overflow-hidden">
       <div className="p-8 w-[95%]">
         <h4 className="text-start font-normal text-xl leading-6 md:text-2xl md:leading-8 text-primaryColor my-2">
           Who is in our network?
@@ -32,7 +32,7 @@ export const OurNetwork = () => {
           loading="lazy"
           style={{ color: "transparent" }}
         />
-        <div className="absolute right-1 top-8 text-white lg:w-[45%] w-full p-3.5">
+        <div className="absolute right-1 xl:top-8 lg:top-6 top-4 text-white lg:w-[45%] w-full p-3">
           <h3 className="font-onest font-light text-[32px] leading-[32px] md:text-[40px] md:leading-[48px] lg:text-5xl lg:leading-[54px]">
             Joined by experts who{" "}
             <span className="text-primaryColor">raised</span> over{" "}
@@ -43,7 +43,7 @@ export const OurNetwork = () => {
           <h5 className="font-light text-xl leading-[26px] md:text-2xl text-[#FCFAF2] my-3">
             World experts dedicate their time to help our students grow.
           </h5>
-          <div className="flex items-center md:justify-end justify-end mt-10 mx-6">
+          <div className="flex items-center md:justify-end justify-end xl:mt-10 lg:mt-6 mx-6">
             <button className="w-[237px] h-[48px] md:w-[269px] md:h-[52px] primary-btn flex items-center justify-center gap-2">
               Discover the network
               <ArrowRight className="w-4" />
