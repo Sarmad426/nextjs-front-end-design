@@ -6,7 +6,7 @@ import { ArrowUpRight } from "lucide-react";
 
 export const OfferedPrograms = () => {
   return (
-    <section className="mx-auto w-[95%]">
+    <section className="mx-auto w-[95%] overflow-hidden">
       <h3 className="text-primaryColor text-2xl my-2">What do we Offer?</h3>
       <hr className="border-[#BCD4C7]" />
       <hr className="border border-[#193E2C] lg:w-[350px] w-[270px] -mt-[.5px]" />
@@ -56,7 +56,7 @@ export const OfferedPrograms = () => {
               </div>
             </div>
           </div>
-          <div className="lg:mt-20 mt-7 text-white">
+          <div className="lg:mt-16 mt-8 text-white pb-2">
             <p>
               &quot; Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Ipsum in animi sint fugit vero molestias libero fugiat &quot;
