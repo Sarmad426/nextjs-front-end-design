@@ -8,6 +8,7 @@ import { StudentGuides } from "@/components/programs/student-guides";
 import { GetSurroundedByTalentedPeople } from "@/components/programs/surrounded-by-talented-people";
 import { WhatOurStudentsDo } from "@/components/programs/what-our-students-do";
 import { FAQ } from "@/components/programs/faq";
+import { ApplicationProcess } from "@/components/programs/application-process";
 
 const Programs = () => {
   return (
@@ -20,6 +21,7 @@ const Programs = () => {
       <GetSurroundedByTalentedPeople />
       <LifeChanging />
       <FAQ />
+      <ApplicationProcess />
     </div>
   );
 };
