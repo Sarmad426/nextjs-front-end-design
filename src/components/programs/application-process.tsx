@@ -46,7 +46,7 @@ export const ApplicationProcess = () => {
             return (
               <div key={index} className="border-t border-gray-200 py-4 px-1">
                 <span className="flex items-center w-full justify-between font-light text-xl leading-5 md:text-2xl font-onest">
-                  <span>0{index + 1}</span>
+                  <span>0{index + 4}</span>
                   <ArrowRight className="w-4 text-primaryColor" />
                 </span>
                 <h4 className="font-onest font-light text-base my-3 md:text-lg md:leading-6">
