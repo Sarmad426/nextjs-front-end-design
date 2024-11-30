@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export const GetSurroundedByTalentedPeople: React.FC = () => {
   return (
-    <div className="w-[95%] mx-auto my-12 mt-8 md:mt-10">
+    <div className="w-[95%] mx-auto my-16 mt-10 md:mt-12">
       <div className="flex flex-col items-start gap-[8px] w-full my-8">
         <h2 className="leading-[24px] md:leading-[32px] relative z-20 font-onest text-[#43AA13] text-[20px] md:text-[24px] lg:min-w-max">
           <span className="hidden md:flex">
