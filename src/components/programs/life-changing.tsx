@@ -126,7 +126,7 @@ export const LifeChanging = () => {
             memories.
           </p>
           <div className="w-full flex items-center justify-center lg:justify-end xl:mt-10 mt-5">
-            <button className="primary-btn p-3 flex items-center justify-center xl:w-[295px] xl:h-[52px]">
+            <button className="primary-btn p-2 flex items-center justify-center xl:min-w-[295px] xl:h-[52px]">
               <span>See how life is at Genoaes</span>
               <ArrowRight className="ml-2 w-8" />
             </button>
