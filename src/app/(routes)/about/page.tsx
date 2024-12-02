@@ -12,7 +12,7 @@ import { StartJourney } from "@/components/home/start-journey";
 
 const About = () => {
   return (
-    <div className="w-full my-6">
+    <main className="w-full my-6">
       <AboutHero />
       <StudentExamples />
       <OurBelieve />
@@ -23,7 +23,7 @@ const About = () => {
       <IndustryExperts />
       <WhatMediaSays />
       <StartJourney />
-    </div>
+    </main>
   );
 };
 

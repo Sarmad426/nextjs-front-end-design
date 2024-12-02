@@ -13,7 +13,7 @@ import { CareerOpportunities } from "@/components/programs/career-opportunities"
 
 const Programs = () => {
   return (
-    <div className="min-h-screen w-full">
+    <main className="min-h-screen w-full">
       <ProgramsHero />
       <ProgramOverview />
       <HowProgramsWork />
@@ -24,7 +24,7 @@ const Programs = () => {
       <FAQ />
       <ApplicationProcess />
       <CareerOpportunities />
-    </div>
+    </main>
   );
 };
 
