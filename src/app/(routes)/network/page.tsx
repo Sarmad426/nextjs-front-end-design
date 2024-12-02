@@ -2,6 +2,7 @@ import React from "react";
 import { NetworkHero } from "@/components/network/network-hero";
 import { PersonalizedMentoring } from "@/components/network/personalized-mentoring";
 import { NetworkForLife } from "@/components/network/network-for-life";
+import { WhatToExpectFromMentors } from "@/components/network/what-to-expect-from-mentors";
 
 const NetworkPage = () => {
   return (
@@ -9,6 +10,7 @@ const NetworkPage = () => {
       <NetworkHero />
       <PersonalizedMentoring />
       <NetworkForLife />
+      <WhatToExpectFromMentors />
     </main>
   );
 };

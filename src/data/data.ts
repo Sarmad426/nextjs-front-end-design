@@ -19,8 +19,11 @@ import MetaLightIcon from '@/assets/meta-light.svg'
 import GrammarlyLightIcon from "@/assets/grammarly-light.svg";
 import GoogleLightIcon from "@/assets/google-light.svg";
 import SequoiaLightIcon from "@/assets/sequoia-light.svg";
-import RipplingIcon from "@/assets/rippling.svg";
+import RipplingLightIcon from "@/assets/rippling-light.svg";
 import YounitedLightIcon from "@/assets/younited-light.svg";
+import CinchIcon from '@/assets/cinch.svg'
+import CaptionsIcon from '@/assets/captions.svg'
+import SunnovaIcon from '@/assets/sunnova.svg'
 
 
 import T1 from "@/assets/t1.webp";
@@ -38,6 +41,8 @@ import Eric from '@/assets/eric-feunteun.webp'
 import LaStampa from '@/assets/la-stampa-img.webp'
 import LaRepublica from '@/assets/la-repubblica.webp'
 import Stamp from '@/assets/commune-di-genova.webp'
+import CompassIcon from '@/assets/compass.svg';
+import RipplingIcon from '@/assets/rippling.svg';
 
 export const icons = [
     GoogleIcon,
@@ -76,7 +81,7 @@ export const experts = [
     },
     {
         img: T4,
-        orgIcon: RipplingIcon,
+        orgIcon: RipplingLightIcon,
         name: "Prasanna Sankar",
         intro: "Co-Founder at Rippling.com ($11.3 bln valuation)",
     },
@@ -133,6 +138,13 @@ export const sponsors = [
     MetaIcon,
     GoogleIcon,
     TeslaIcon,
+];
+export const sponsors1 = [
+    RipplingIcon,
+    CompassIcon,
+    CinchIcon,
+    SunnovaIcon,
+    CaptionsIcon,
 ];
 
 export const sponsorsLight = [

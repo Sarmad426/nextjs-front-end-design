@@ -60,7 +60,7 @@ export const NetworkForLife = () => {
           <h4 className="font-onest font-light text-[28px] leading-8 lg:font-extralight lg:text-[40px] lg:leading-[48px]">
             Genoa ES network is for life
           </h4>
-          <p className="w-full ml-[18%] font-onest font-light text-base lg:text-[22px] lg:leading-8 lg:w-3/4 lg:ml-0">
+          <p className="w-full ml-[18%] font-onest font-light text-base lg:text-[22px] lg:leading-8 lg:w-3/4 sm:ml-0">
             After the program ends, 85% of our mentors continue to provide
             monthly advice to graduates.
           </p>
@@ -69,7 +69,7 @@ export const NetworkForLife = () => {
           <Image
             src={Mentors}
             alt="Network for life"
-            className="w-[328px] h-[250px] lg:min-w-[581px] lg:max-w-[581px] lg:h-[350px]"
+            className="w-[328px] h-[250px] sm:min-w-[328px] sm:mx-auto lg:min-w-[581px] lg:max-w-[581px] lg:h-[350px]"
           />
         </div>
       </div>
