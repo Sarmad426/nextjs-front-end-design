@@ -55,7 +55,7 @@ export const NetworkForLife = () => {
           </p>
         </div>
       </div>
-      <div className="my-12 flex flex-col-reverse lg:flex-row gap-y-5 gap-x-2">
+      <div className="my-12 lg:my-20 flex flex-col-reverse lg:flex-row gap-y-5 gap-x-2">
         <div className="flex flex-col gap-5 items-start justify-center min-h-full p-2">
           <h4 className="font-onest font-light text-[28px] leading-8 lg:font-extralight lg:text-[40px] lg:leading-[48px]">
             Genoa ES network is for life
