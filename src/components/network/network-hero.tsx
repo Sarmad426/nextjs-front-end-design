@@ -18,7 +18,7 @@ export const NetworkHero = () => {
     TeslaIcon,
   ];
   return (
-    <section className="bg-[#193E2C] text-white flex flex-col items-center justify-center w-full p-3 pb-5 lg:pb-1.5 lg:h-[95vh]">
+    <section className="bg-[#193E2C] text-white flex flex-col items-center justify-center w-full p-3 pb-5 lg:pb-1.5 lg:h-[95vh] my-12">
       <div className="flex flex-col-reverse gap-20 lg:grid grid-cols-2 place-items-center mx-6 md:mx-16">
         <div className="col-span-1 flex flex-col items-center gap-5 justify-between min-h-full">
           <div className="flex flex-col gap-5 items-center">
